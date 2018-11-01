@@ -1,0 +1,2042 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties -->
+<html itemscope="" itemtype="http://schema.org/QAPage" class="html__responsive"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>c# - How to set extended file properties? - Stack Overflow</title>
+        <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+        <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+        <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="https://stackoverflow.com/opensearch.xml">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties">
+        <meta property="og:site_name" content="Stack Overflow">
+        <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:domain" content="stackoverflow.com">
+        <meta name="twitter:title" property="og:title" itemprop="title name" content="How to set extended file properties?">
+        <meta name="twitter:description" property="og:description" itemprop="description" content="I need to set the Company field value for some Word/PDF documents.  I am talking about the extended file properties (summary/author/title, etc.) you see under File Properties. 
+
+I know how to get t...">
+        <script src="./c# - How to set extended file properties_ - Stack Overflow_files/f.txt"></script><script src="./c# - How to set extended file properties_ - Stack Overflow_files/amp4ads-host-v0.js.下载"></script><script src="./c# - How to set extended file properties_ - Stack Overflow_files/rules-p-c1rF4kxgLUzNc.js.下载" async=""></script><script src="./c# - How to set extended file properties_ - Stack Overflow_files/pubads_impl_rendering_270.js.下载"></script><script async="" src="./c# - How to set extended file properties_ - Stack Overflow_files/quant.js.下载"></script><script async="" src="./c# - How to set extended file properties_ - Stack Overflow_files/beacon.js.下载"></script><script async="" src="./c# - How to set extended file properties_ - Stack Overflow_files/analytics.js.下载"></script><script src="./c# - How to set extended file properties_ - Stack Overflow_files/jquery.min.js.下载"></script>
+        <script src="./c# - How to set extended file properties_ - Stack Overflow_files/stub.en.js.下载"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./c# - How to set extended file properties_ - Stack Overflow_files/stacks.css">
+    <link rel="stylesheet" type="text/css" href="./c# - How to set extended file properties_ - Stack Overflow_files/primary-unified.css">
+
+    
+            <link rel="alternate" type="application/atom+xml" title="Feed for question &#39;How to set extended file properties?&#39;" href="https://stackoverflow.com/feeds/question/5337683">
+            <meta name="twitter:app:country" content="US">
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:iphone" content="871299723">
+            <meta name="twitter:app:url:iphone" content="se-zaphod://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties">
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:ipad" content="871299723">
+            <meta name="twitter:app:url:ipad" content="se-zaphod://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties">
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="http://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+
+            StackExchange.ready(function () {
+                                    
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:3,shownCommentCount:3,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:5337683});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('1', '5337683');
+                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script>
+
+        
+        
+        
+        
+        
+        
+                <script>
+        StackExchange.init({"locale":"en","serverTime":1541072488,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bed654998a48aca0f90cdce7edb2d57ab3a2e2f7c4435acf8ad80342557c3a40","tid":"38dd4c99-d2ae-013c-45a0-90eed8dd235c","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hero_signup_button":{"v":"team_create_cta_e","g":1}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/svg-icons","svgIconHash":"0f0fc5e90a6d"}, {"site":{"allowImageUploads":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true,"stacksValidation":true},"userMessaging":{"showNewFeatureNotice":true},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fe8dced10ffa","js/moderator.en.js":"c48addfbc3c8","js/full-anon.en.js":"7c60480d4f3f","js/full.en.js":"c3274eac932e","js/wmd.en.js":"627466a66481","js/mobile.en.js":"5e6c15f98c19","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"2418012691f9","js/tageditornew.en.js":"b6cdf001e28b","js/inline-tag-editing.en.js":"8e73ea969326","js/revisions.en.js":"be10a4167571","js/review.en.js":"1fa08df1be03","js/tagsuggestions.en.js":"b278f9a0b23b","js/post-validation.en.js":"6e1d062d4361","js/explore-qlist.en.js":"5da8ae80881e","js/events.en.js":"d1c4b434b047","js/keyboard-shortcuts.en.js":"02e34660a5fe","js/external-editor.en.js":"c8f81f86a32d","js/adops.en.js":"22a9bd59b1e9","js/begin-edit-event.en.js":"7415f5dee62d","js/external-editor.en.js":"c8f81f86a32d","js/snippet-javascript.en.js":"4543e382cfde","js/snippet-javascript-codemirror.en.js":"5508d46aa3a3"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    <noscript id="noscript-css"><style>body,.top-bar{margin-top:1.9em}</style></noscript>
+    <link rel="preload" href="./c# - How to set extended file properties_ - Stack Overflow_files/f(1).txt" as="script"><script type="text/javascript" src="./c# - How to set extended file properties_ - Stack Overflow_files/f(1).txt"></script><script src="./c# - How to set extended file properties_ - Stack Overflow_files/pubads_impl_270.js.下载" async=""></script><link rel="stylesheet" href="./c# - How to set extended file properties_ - Stack Overflow_files/clc.min.css" type="text/css"><script async="" src="./c# - How to set extended file properties_ - Stack Overflow_files/full-anon.en.js.下载"></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-30/html/container.html"><script async="" src="./c# - How to set extended file properties_ - Stack Overflow_files/snippet-javascript.en.js.下载"></script><script async="" src="./c# - How to set extended file properties_ - Stack Overflow_files/post-validation.en.js.下载"></script><script async="" src="./c# - How to set extended file properties_ - Stack Overflow_files/prettify-full.en.js.下载"></script><script async="" src="./c# - How to set extended file properties_ - Stack Overflow_files/external-editor.en.js.下载"></script></head>
+        <body class="question-page unified-theme new-topbar">
+    <div id="notify-container"></div>
+    <div id="custom-header"></div>
+
+
+
+
+<header class="top-bar js-top-bar _fixed top-bar__network">
+    <div class="-container">
+        <div class="-main">
+                <a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle"><span class="ps-relative"></span></a>
+                                <a href="https://stackoverflow.com/" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:2, destination:8})">
+                        <span class="-img _glyph">Stack Overflow</span>
+                    </a>
+
+
+
+        </div>
+
+            <form id="search" action="https://stackoverflow.com/search" method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search…" value="" autocomplete="off" maxlength="240" class="f-input js-search-field ">
+                        <button type="submit" aria-label="Search..." class="s-btn s-btn__primary btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon mx0 iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></button>
+                    </div>
+            </form>
+
+        
+
+
+
+
+
+<ol class="-secondary js-secondary-topbar-links drop-icons-responsively the-js-is-handling-responsiveness">
+        <li class="-item searchbar-trigger js-searchbar-trigger"><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></a></li>
+            <li class="-item">
+        <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z"></path></svg>
+            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+        </a>
+    </li>
+    <li class="-item">
+        <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"></path></svg>
+            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+        </a>
+    </li>
+
+    <li class="-item help-button-item" data-remove-order="1"><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="-link js-help-button" title="Help Center and other resources">
+        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"></path></svg>
+    </a></li>
+
+    <li class="-item">
+        <a href="https://stackexchange.com/" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 174 Stack Exchange sites">
+            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg>
+        </a>
+    </li>
+
+            <li class="-ctas">
+                        <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f5337683%2fhow-to-set-extended-file-properties" class="login-link s-btn btn-topbar-clear py8" rel="nofollow">Log In</a>
+                        <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link s-btn s-btn__primary py8 btn-topbar-primary" rel="nofollow" data-ga="[&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a>
+
+            </li>
+
+    <li class="-dialog-container js-topbar-dialog-corral">
+
+
+    <div class="topbar-dialog siteSwitcher-dialog dno">
+        <div class="header">
+            <h3><a href="https://stackoverflow.com/">current community</a>
+            </h3>
+        </div>
+        <div class="modal-content current-site-container">
+            <ul class="current-site">
+                    <li class="grid">
+                            <div class="fl1">
+            <a href="https://stackoverflow.com/" class="current-site-link site-link js-gps-track grid gs8 gsx" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })">
+        <div class="favicon favicon-stackoverflow site-icon grid--cell" title="Stack Overflow"></div>
+        <span class="grid--cell fl1">
+            Stack Overflow
+        </span>
+    </a>
+
+    </div>
+    <div class="related-links">
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a>
+                    <a href="https://chat.stackoverflow.com/" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+            </div>
+
+                    </li>
+                    <li class="related-site grid">
+                            <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                            <a href="https://meta.stackoverflow.com/" class="site-link js-gps-track grid gs8 gsx" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })">
+        <div class="favicon favicon-stackoverflowmeta site-icon grid--cell" title="Meta Stack Overflow"></div>
+        <span class="grid--cell fl1">
+            Meta Stack Overflow
+        </span>
+    </a>
+
+                    </li>
+            </ul>
+        </div>
+
+        <div class="header" id="your-communities-header">
+            <h3>
+your communities            </h3>
+
+        </div>
+        <div class="modal-content" id="your-communities-section">
+
+                <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f5337683%2fhow-to-set-extended-file-properties" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list.
+                </div>
+        </div>
+
+        <div class="header">
+            <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a>
+            </h3>
+            <a href="https://stackoverflow.blog/" class="fr">company blog</a>
+        </div>
+        <div class="modal-content">
+                <div class="child-content"></div>
+        </div>        
+    </div>
+            <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="https://stackoverflow.com/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                        <li>
+                            <a href="https://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                                Meta
+                                <span class="item-summary">
+                                    Discuss the workings and policies of this site
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                                About Us
+                                <span class="item-summary">
+                                    Learn more about Stack Overflow the company
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                                Business
+                                <span class="item-summary">
+                                    Learn more about hiring developers or posting ads with us
+                                </span>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+                    <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+                <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm"></div>
+            </div>
+    </li>
+</ol>
+
+    </div>
+</header>
+    <div id="js-gdpr-consent-banner" class="p16 bg-black-700 ff-sans fc-white ps-fixed b0 l0 r0 z-banner" role="banner" aria-hidden="false">
+        <div class="wmx8 mx-auto grid jc-center" role="alertdialog" aria-describedby="notice-message">
+            <div class="grid--cell mr12" aria-label="notice-message">
+                <p class="mb0 lh-lg">
+                    By using our site, you acknowledge that you have read and understand our <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/cookie-policy">Cookie Policy</a>, <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/privacy-policy">Privacy Policy</a>, and our <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/terms-of-service/public">Terms of Service</a>.
+                </p>
+            </div>
+            <a class="grid--cell fc-white js-notice-close" aria-label="notice-dismiss">
+                <svg aria-hidden="true" class="svg-icon m0 iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z"></path></svg>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        StackExchange.ready(function () { StackExchange.topbar.init({ observeSize: true }); });
+        StackExchange.scrollPadding.setPaddingTop(50, 10);     </script>
+
+
+    
+
+
+
+
+
+
+
+
+<div class="old-hero hero-container _fixed js-dismissable-hero" data-campaign-name="stk">
+    <div class="-container grid jc-sp-between ai-center md:fd-column md:pr32">
+        <div class="fl1 mr16 md:mb24">
+            <p class="-title"><strong>Join Stack Overflow</strong> to learn, share knowledge, and build your career.</p>
+        </div>
+
+        <div class="s-signup _hero fl1">
+            <div id="openid-buttons" class="-social ws-nowrap">
+                <a class="btn-outlined -white _medium _block" href="https://stackoverflow.com/users/signup?ssrc=hero&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f5337683%2fhow-to-set-extended-file-properties" rel="nofollow" data-ga="[&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;Question Hero&quot;,null,null]">
+                        <span class="sm:d-none">Email Sign Up</span>
+                        <span class="d-none sm:d-inline">Sign Up</span>
+                    
+                </a>
+                <span class="-or sm:d-none">or sign in with</span>
+                    <div class="major-provider btn _block _medium sm:d-none _google" data-provider="google" data-oauthserver="https://accounts.google.com/o/oauth2/auth" data-oauthversion="2.0" data-ga="[&quot;sign up&quot;,&quot;Sign Up Started - Google&quot;,&quot;Question Hero&quot;,null,null]">
+<svg aria-hidden="true" class="svg-icon native iconGoogle" width="18" height="18" viewBox="0 0 18 18"><g><path d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z" fill="#4285F4"></path><path d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z" fill="#34A853"></path><path d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z" fill="#FBBC05"></path><path d="M8.98 4.18c1.17 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.4L4.5 7.49a4.77 4.77 0 0 1 4.48-3.3z" fill="#EA4335"></path></g></svg>                                                Google
+                    </div>
+                    <div class="major-provider btn _block _medium sm:d-none _facebook" data-provider="facebook" data-oauthserver="https://www.facebook.com/v2.0/dialog/oauth" data-oauthversion="2.0" data-ga="[&quot;sign up&quot;,&quot;Sign Up Started - Facebook&quot;,&quot;Question Hero&quot;,null,null]">
+                        <svg aria-hidden="true" class="svg-icon iconFacebook" width="18" height="18" viewBox="0 0 18 18"><path d="M1.88 1C1.4 1 1 1.4 1 1.88v14.24c0 .48.4.88.88.88h7.67v-6.2H7.46V8.4h2.09V6.61c0-2.07 1.26-3.2 3.1-3.2.88 0 1.64.07 1.87.1v2.16h-1.29c-1 0-1.19.48-1.19 1.18V8.4h2.39l-.31 2.42h-2.08V17h4.08c.48 0 .88-.4.88-.88V1.88c0-.48-.4-.88-.88-.88H1.88z" fill="#3C5A96"></path></svg>                        Facebook
+                    </div>
+                                    <a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="js-dismiss -dismiss md:ps-absolute" title="dismiss"><svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z"></path></svg></a>
+            </div>
+
+            <form id="login-form" action="https://stackoverflow.com/users/signup?ssrc=hero&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f5337683%2fhow-to-set-extended-file-properties" method="POST">
+
+                <input type="hidden" name="fkey" value="bed654998a48aca0f90cdce7edb2d57ab3a2e2f7c4435acf8ad80342557c3a40">
+
+                <input type="hidden" name="ssrc" value="">
+
+                <input type="hidden" id="oauth_version" name="oauth_version" value="">
+                <input type="hidden" id="oauth_server" name="oauth_server" value="">
+
+                <div id="se-login-fields">
+                    <input type="hidden" name="legalLinksShown" value="0">
+                </div>
+            </form>
+            <script>
+                StackExchange.ready(function () {
+                    StackExchange.InlineAuth.init();
+                })
+            </script>
+        </div>
+    </div>
+</div><script>
+    StackExchange.ready(function () {
+        StackExchange.Hero.init("stk", "a");
+
+        var location = 0;
+        if ($("body").hasClass("questions-page")) {
+            location = 1;
+        } else if ($("body").hasClass("question-page")) {
+            location = 1;
+        } else if ($("body").hasClass("faq-page")) {
+            location = 5;
+        } else if ($("body").hasClass("home-page")) {
+            location = 3;
+        }
+
+        $('.js-cta-button').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: 'cta', location: location }, true);
+            });
+        });
+
+        // TODO: we should review the class names and whatnot in use here. Older heroes use id selectors, the newer
+        // sticky question hero on SO has a .js-dismiss class instead, but it's apparently not used anywhere... 
+        // It's not great. Ideally we'd have a set of classes in the partials above that would correspond to 
+        // the behaviours we want here in a more clear way. 
+
+        // sticky question-page hero at the bottom of the page on SO
+        $('.js-dismiss').on('click', function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "close", location: location }, true);
+            });
+            StackExchange.Hero.dismiss();
+            $(".js-dismissable-hero").fadeOut("fast");
+        });
+    });
+</script>
+    <div class="container  ">
+                
+
+
+
+<div id="left-sidebar" data-is-here-when="md lg" class="left-sidebar js-pinned-left-sidebar">
+    <div class="left-sidebar--sticky-container js-sticky-leftnav">
+        <nav role="navigation">
+            <ol class="nav-links">
+                <li>    </li><li>
+        <a href="https://stackoverflow.com/" class="pl8 js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:8})">
+Home        </a>
+    </li>
+
+                <li>
+                    <ol class="nav-links">
+                            <li class="fs-fine tt-uppercase ml8 mt16 mb4 fc-light">Public</li>
+                            <li class=" youarehere">
+        <a id="nav-questions" href="https://stackoverflow.com/questions" class="pl8 js-gps-track nav-links--link -link__with-icon" data-gps-track="top_nav.click({is_current:true, location:2, destination:1})">
+<svg aria-hidden="true" class="svg-icon iconGlobe" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zM8 15.32a6.4 6.4 0 0 1-5.23-7.75L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.4 6.4 0 0 1 2.32 10.24z"></path></svg>                <span class="-link--channel-name">Stack Overflow</span>
+        </a>
+    </li>
+
+    <li>
+        <a id="nav-tags" href="https://stackoverflow.com/tags" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:2})">
+Tags        </a>
+    </li>
+    <li>
+        <a id="nav-users" href="https://stackoverflow.com/users" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:3})">
+Users        </a>
+    </li>
+    <li>
+        <a id="nav-jobs" href="https://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:6})">
+Jobs        </a>
+    </li>
+                                            </ol>
+                </li>
+                    <li>
+                        <ol class="nav-links">
+                                    <li class="p6">
+                                        <div class="ba bc-black-2 bar-sm p16 grid fd-column ps-relative overflow-hidden">
+                                            <strong class="grid--cell">Teams</strong>
+                                            <span class="grid--cell mt2 fs-caption fc-medium">Q&amp;A for work </span>
+                                            <a href="https://stackoverflow.com/teams" class="js-gps-track s-btn s-btn__outlined ta-center grid--cell mt12" data-gps-track="teams.create.left-sidenav.click" data-ga="[&quot;teams traffic&quot;,&quot;left nav cta&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]">
+                                                Learn More
+                                            </a>
+
+                                            <div class="ps-absolute t4 rn6">
+                                                <svg width="53" height="49" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49 11l.2 31H18.9L9 49v-7H4V8h31" fill="#CCEAFF"></path><path d="M44.5 19v-.3l-.2-.1-18-13-.1-.1H.5v33h4V46l.8-.6 9.9-6.9h29.3V19z" stroke="#1060E1" stroke-miterlimit="10"></path><path d="M31 2l6-1.5 7 2V38H14.9L5 45v-7H1V6h25l5-4z" fill="#fff"></path><path d="M7 16.5h13m-13 6h14m-14 6h18" stroke="#1060E1" stroke-miterlimit="10"></path><path d="M39 30a14 14 0 1 0 0-28 14 14 0 0 0 0 28z" fill="#FFB935"></path><path d="M50.5 14a13.5 13.5 0 1 1-27 0 13.5 13.5 0 0 1 27 0z" stroke="#F48024" stroke-miterlimit="10"></path><path d="M32.5 21.5v-8h9v8h-9zm2-9.5V9.3A2.5 2.5 0 0 1 37 6.8a2.5 2.5 0 0 1 2.5 2.5V12h-5zm2 3v2m1-2v2" stroke="#fff" stroke-miterlimit="10"></path></svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                        </ol>
+                    </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+        <div id="content" class="snippet-hidden">
+
+
+            
+
+
+<div itemscope="" itemtype="http://schema.org/Question">
+    <link itemprop="image" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+
+    <div class="inner-content clearfix">
+    
+    
+
+<style>.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}</style>
+        <div id="dfp-tlb" class="everyonelovesstackoverflow everyoneloves__top-leaderboard" data-google-query-id="CLjp1bKOs94CFUUeKgodr8MMQQ" data-clc-prefilled="true" data-clc-ready="true"><div id="google_ads_iframe_/248424177/stackoverflow.com/lb/question-pages_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/248424177/stackoverflow.com/lb/question-pages_0" title="3rd party ad content" name="google_ads_iframe_/248424177/stackoverflow.com/lb/question-pages_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" data-google-container-id="1" data-load-complete="true" src="./c# - How to set extended file properties_ - Stack Overflow_files/saved_resource.html"></iframe></div></div>            <div id="question-header" class="grid">
+                    <h1 itemprop="name" class="grid--cell fs-headline1 fl1"><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties" class="question-hyperlink">How to set extended file properties?</a></h1>
+
+            
+
+
+
+<div class="pl8 aside-cta grid--cell" role="navigation" aria-label="ask new question">
+            <a href="https://stackoverflow.com/questions/ask" class="d-inline-flex ai-center ws-nowrap s-btn s-btn__primary">Ask Question</a>
+</div>
+
+        </div>
+            <div id="mainbar" role="main" aria-label="question and answers">
+
+            
+
+<div class="question" data-questionid="5337683" id="question">
+
+    
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="5337683">
+        <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">33</span>
+        <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+        <a class="star-off" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#">favorite</a>
+        <div class="favoritecount"><b>9</b></div>
+
+
+
+</div>
+
+            </div>
+
+            
+<div class="postcell post-layout--right">
+    <div class="post-text" itemprop="text">
+
+<p>I need to set the Company field value for some Word/PDF documents.  I am talking about the extended file properties (summary/author/title, etc.) you see under File Properties. </p>
+
+<p>I know how to <em>get</em> them (by using <code>shell32.dll</code> class library). I assumed that I could also <em>set</em> them with the same class library, but it seems like writing extended properties is a little bit more difficult and <code>shell32.dll</code> doesn't allow that. </p>
+
+<p>I found something about <code>taglib-sharp</code>, which seems to have an option to set extended properties, but I don't really understand how it works.</p>
+    </div>
+
+        <div class="post-taglist grid gs4 gsy fd-column">
+            <div class="grid ps-relative d-block">
+                <a href="https://stackoverflow.com/questions/tagged/c%23" class="post-tag js-gps-track" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> 
+            </div>
+        </div>
+
+    <div class="mb0 ">
+        <div class="mt16 pt4 grid gs8 gsy fw-wrap jc-end ai-start">
+            <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/q/5337683" title="short permalink to this question" class="short-link" id="link-post-5337683">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/5337683/edit" class="suggest-edit-post" title="">improve this question</a></div>
+            </div>
+
+                <div class="post-signature grid--cell">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/5337683/revisions" title="show all edits to this post">edited <span title="2017-10-12 14:17:32Z" class="relativetime">Oct 12 '17 at 14:17</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/3474146/alex"><div class="gravatar-wrapper-32"><img src="./c# - How to set extended file properties_ - Stack Overflow_files/rb7ih.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/3474146/alex">alex</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">2,443</span><span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span><span title="30 silver badges"><span class="badge2"></span><span class="badgecount">30</span></span><span title="66 bronze badges"><span class="badge3"></span><span class="badgecount">66</span></span>
+        </div>
+    </div>
+</div>                </div>
+            <div class="post-signature owner grid--cell">
+<div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2011-03-17 10:16:21Z" class="relativetime">Mar 17 '11 at 10:16</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/644891/andree"><div class="gravatar-wrapper-32"><img src="./c# - How to set extended file properties_ - Stack Overflow_files/cb97a7e2690fd37ed69ab4d780daa95e" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/644891/andree">andree</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1,479</span><span title="6 gold badges"><span class="badge1"></span><span class="badgecount">6</span></span><span title="24 silver badges"><span class="badge2"></span><span class="badgecount">24</span></span><span title="37 bronze badges"><span class="badge3"></span><span class="badgecount">37</span></span>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+                
+    <div class="post-layout--right">
+	    <div id="comments-5337683" class="comments js-comments-container ">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-6026382" class="comment js-comment " data-comment-id="6026382">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">I suspect for simple files they're in an alternate NTFS stream, <a href="http://msdn.microsoft.com/en-us/library/ff469239%28v=PROT.10%29.aspx" rel="nofollow noreferrer">e.g. this one</a> but for .docs they'd actually be a property of the doc file itself. I think taglib-sharp is just for mp3 files. There's probably a COM object that's used by Explorer to parse these that you can automate?</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/243245/rup" title="26,664 reputation" class="comment-user">Rup</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment6026382_5337683"><span title="2011-03-17 10:59:16Z" class="relativetime-clean">Mar 17 '11 at 10:59</span></a></span>
+                        <span title="this comment was edited 2 times">
+                            <svg aria-hidden="true" class="svg-icon va-text-bottom o50 iconPencilSm" width="14" height="15" viewBox="0 0 14 15"><path d="M8.37 4.7L2 11.11V13h1.88l6.37-6.43zM12.23 3.83L11.1 2.71a.5.5 0 0 0-.7 0L9.2 3.86l1.88 1.84 1.14-1.16a.5.5 0 0 0 0-.71z"></path></svg>
+                        </span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-6026469" class="comment js-comment " data-comment-id="6026469">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">I cheked out tablib and it is for mp3 only. Maybe give me a clue about COm object, because I dont really understand. I'm a beginner and seem like I'm trying to get something thats over my head.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/644891/andree" title="1,479 reputation" class="comment-user owner">andree</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment6026469_5337683"><span title="2011-03-17 11:06:45Z" class="relativetime-clean">Mar 17 '11 at 11:06</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-50786138" class="comment js-comment " data-comment-id="50786138">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">@andree - Thanks for sharing your answer. I was working on similar task and did found that using Shell32.dll I can get properties but was not able to set them. Your answer really helped me.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/2409088/nikhil-chavan" title="905 reputation" class="comment-user">Nikhil Chavan</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment50786138_5337683"><span title="2015-07-14 12:15:04Z" class="relativetime-clean">Jul 14 '15 at 12:15</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-5337683" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" onclick=""></a>
+        </div>         
+    </div>        </div>
+</div>
+
+
+<div id="dfp-isb" class="everyonelovesstackoverflow everyoneloves__inline-sidebar" style="min-height: auto; height: auto; display: none;"></div>
+        <div id="answers">
+
+                <a name="tab-top"></a>
+                <div id="answers-header">
+                    <div class="subheader answers-subheader">
+                        <h2 data-answercount="5">
+                                5 Answers
+                                <span style="display:none;" itemprop="answerCount">5</span>
+                        </h2>
+                        <div>
+                            
+<div id="tabs">
+        <a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active" data-shortcut="A">
+            active</a>
+        <a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest" data-shortcut="O">
+            oldest</a>
+        <a class="youarehere is-selected " href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes" data-shortcut="V">
+            votes</a>
+    </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+  
+<a name="37987288"></a>
+<div id="answer-37987288" class="answer accepted-answer" data-answerid="37987288" itemprop="acceptedAnswer" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="37987288">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">37</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+        <span class="vote-accepted-on load-accepted-answer-date" title="loading when this answer was accepted...">accepted</span>
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<h1>Solution 2016</h1>
+
+<p>Add following NuGet packages to your project:</p>
+
+<ul>
+<li><code>Microsoft.WindowsAPICodePack-Shell</code> by Microsoft</li>
+<li><code>Microsoft.WindowsAPICodePack-Core</code> by Microsoft</li>
+</ul>
+
+<h3>Read and Write Properties</h3>
+
+<pre class="lang-cs prettyprint prettyprinted" style=""><code><span class="pln">using </span><span class="typ">Microsoft</span><span class="pun">.</span><span class="typ">WindowsAPICodePack</span><span class="pun">.</span><span class="typ">Shell</span><span class="pun">;</span><span class="pln">
+using </span><span class="typ">Microsoft</span><span class="pun">.</span><span class="typ">WindowsAPICodePack</span><span class="pun">.</span><span class="typ">Shell</span><span class="pun">.</span><span class="typ">PropertySystem</span><span class="pun">;</span><span class="pln">
+
+</span><span class="kwd">string</span><span class="pln"> filePath </span><span class="pun">=</span><span class="pln"> </span><span class="str">@"C:\temp\example.docx"</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> file </span><span class="pun">=</span><span class="pln"> </span><span class="typ">ShellFile</span><span class="pun">.</span><span class="typ">FromFilePath</span><span class="pun">(</span><span class="pln">filePath</span><span class="pun">);</span><span class="pln">
+
+</span><span class="com">// Read and Write:</span><span class="pln">
+
+</span><span class="kwd">string</span><span class="pun">[]</span><span class="pln"> oldAuthors </span><span class="pun">=</span><span class="pln"> file</span><span class="pun">.</span><span class="typ">Properties</span><span class="pun">.</span><span class="typ">System</span><span class="pun">.</span><span class="typ">Author</span><span class="pun">.</span><span class="typ">Value</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">string</span><span class="pln"> oldTitle </span><span class="pun">=</span><span class="pln"> file</span><span class="pun">.</span><span class="typ">Properties</span><span class="pun">.</span><span class="typ">System</span><span class="pun">.</span><span class="typ">Title</span><span class="pun">.</span><span class="typ">Value</span><span class="pun">;</span><span class="pln">
+
+file</span><span class="pun">.</span><span class="typ">Properties</span><span class="pun">.</span><span class="typ">System</span><span class="pun">.</span><span class="typ">Author</span><span class="pun">.</span><span class="typ">Value</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="kwd">string</span><span class="pun">[]</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="str">"Author #1"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Author #2"</span><span class="pln"> </span><span class="pun">};</span><span class="pln">
+file</span><span class="pun">.</span><span class="typ">Properties</span><span class="pun">.</span><span class="typ">System</span><span class="pun">.</span><span class="typ">Title</span><span class="pun">.</span><span class="typ">Value</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"Example Title"</span><span class="pun">;</span><span class="pln">
+
+</span><span class="com">// Alternate way to Write:</span><span class="pln">
+
+</span><span class="typ">ShellPropertyWriter</span><span class="pln"> propertyWriter </span><span class="pun">=</span><span class="pln">  file</span><span class="pun">.</span><span class="typ">Properties</span><span class="pun">.</span><span class="typ">GetPropertyWriter</span><span class="pun">();</span><span class="pln">
+propertyWriter</span><span class="pun">.</span><span class="typ">WriteProperty</span><span class="pun">(</span><span class="typ">SystemProperties</span><span class="pun">.</span><span class="typ">System</span><span class="pun">.</span><span class="typ">Author</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="kwd">string</span><span class="pun">[]</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="str">"Author"</span><span class="pln"> </span><span class="pun">});</span><span class="pln">
+propertyWriter</span><span class="pun">.</span><span class="typ">Close</span><span class="pun">();</span></code></pre>
+
+<p><strong>Important:</strong></p>
+
+<p>The file must be a valid one, created by the specific assigned software. Every file type has specific extended file properties and not all of them are writable.</p>
+
+<p>If you right-click a file on desktop and cannot edit a property, you wont be able to edit it in code too.</p>
+
+<p>Example:</p>
+
+<ul>
+<li>Create txt file on desktop, rename its extension to docx. You can't
+edit its <code>Author</code> or <code>Title</code> property.</li>
+<li>Open it with Word, edit and save
+it. Now you can.</li>
+</ul>
+
+<p>So just make sure to use some <code>try</code> <code>catch</code></p>
+
+<p>Further Topic:
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/cc144125(v=vs.85).aspx" rel="noreferrer">MSDN: Implementing Property Handlers</a></p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/37987288" title="short permalink to this answer" class="short-link" id="link-post-37987288">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/37987288/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/37987288/revisions" title="show all edits to this post">edited <span title="2017-08-03 09:18:33Z" class="relativetime">Aug 3 '17 at 9:18</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2016-06-23 09:17:52Z" class="relativetime">Jun 23 '16 at 9:17</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/1951524/ma-maddin"><div class="gravatar-wrapper-32"><img src="./c# - How to set extended file properties_ - Stack Overflow_files/picture" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/1951524/ma-maddin">MA-Maddin</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">3,452</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="28 silver badges"><span class="badge2"></span><span class="badgecount">28</span></span><span title="39 bronze badges"><span class="badge3"></span><span class="badgecount">39</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-37987288" class="comments js-comments-container ">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-63932054" class="comment js-comment " data-comment-id="63932054">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">2</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">Need more +1's for this answer. Can't be having it hanging around at the bottom. Not only is it the best answer for the OP, but also <code>WindowsAPICodePack</code> is just awesome.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/3546415/u8it" title="1,715 reputation" class="comment-user">u8it</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment63932054_37987288"><span title="2016-07-07 21:22:53Z" class="relativetime-clean">Jul 7 '16 at 21:22</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-80856917" class="comment js-comment " data-comment-id="80856917">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">Can I add my custom properties?</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/75500/shimmy" title="48,471 reputation" class="comment-user">Shimmy</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment80856917_37987288"><span title="2017-10-26 12:56:38Z" class="relativetime-clean">Oct 26 '17 at 12:56</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-90307374" class="comment js-comment " data-comment-id="90307374">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">So the properties (and their read/write -ability) must be determined by the definition of the file extension. If so then where is this at?</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/6314220/ancientelevator9" title="100 reputation" class="comment-user">AncientElevator9</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment90307374_37987288"><span title="2018-08-03 12:15:24Z" class="relativetime-clean">Aug 3 at 12:15</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-90435776" class="comment js-comment " data-comment-id="90435776">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">For some reason, <code>ShellPropertyWriter</code> seems to not save the changes <i>occasionally</i>. Changing the value directly <a href="https://stackoverflow.com/a/51188687/4934172">as shown in this answer</a> seems to work better for me.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/4934172/ahmed-abdelhameed" title="5,467 reputation" class="comment-user">Ahmed Abdelhameed</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment90435776_37987288"><span title="2018-08-08 02:01:42Z" class="relativetime-clean">Aug 8 at 2:01</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-90988945" class="comment js-comment " data-comment-id="90988945">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">I switched to this as accepted, time has moved on since my question was asked and right now this seems like the way to go.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/644891/andree" title="1,479 reputation" class="comment-user owner">andree</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment90988945_37987288"><span title="2018-08-25 16:47:06Z" class="relativetime-clean">Aug 25 at 16:47</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-37987288" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+<div id="dfp-mlb" class="everyonelovesstackoverflow everyoneloves__mid-leaderboard" data-google-query-id="CLnp1bKOs94CFUUeKgodr8MMQQ" data-clc-prefilled="true" data-clc-ready="true"><div id="google_ads_iframe_/248424177/stackoverflow.com/mlb/question-pages_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/248424177/stackoverflow.com/mlb/question-pages_0" title="3rd party ad content" name="google_ads_iframe_/248424177/stackoverflow.com/mlb/question-pages_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" data-google-container-id="2" data-load-complete="true" src="./c# - How to set extended file properties_ - Stack Overflow_files/saved_resource(1).html"></iframe></div></div>
+  
+<a name="5349037"></a>
+<div id="answer-5349037" class="answer" data-answerid="5349037" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="5349037">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">23</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>Ok here is answer to my own question, since I wasn't really able to find my answer in this forum, it could be useful for others.
+Solution is to use dsofile.dll and OleDocumentPropertiesClass.
+Here is MS article about dsofile.dll - <a href="http://support.microsoft.com/kb/224351" rel="nofollow noreferrer">Link</a>
+In this link, you can download dsofile.dll with some other files. But most probably, just like I did, you will face some weird problems that are hard to find a solution for.</p>
+
+<p>1) After intalling dsofile.dll, you will need to register the class: oped cmd and navigate to c:\dsofile of to directory, where you have extracted your downloaded dsofile.dll. After that - write line <strong>regsvr32 dsofile.dll</strong>. You should get a messagebox saying that registeration was succesful. If not, most propably you don't have admin rights. You are going to need admin rights in case you want this to work.</p>
+
+<p>2) After trying to use this class in your program, if you are using .NET 4.0 it is possible, that you will see error saying something like <em>"class cannot be embedded ..."</em>
+Well, for that, right click on dsofile in references list, properties -&gt; embed interop files -&gt; set to FALSE.</p>
+
+<p>3) How to use:</p>
+
+<pre class="lang-cs prettyprint prettyprinted" style=""><code><span class="pln">    </span><span class="com">//creates new class of oledocumentproperties</span><span class="pln">
+    </span><span class="kwd">var</span><span class="pln"> doc </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">OleDocumentPropertiesClass</span><span class="pun">();</span><span class="pln">
+
+    </span><span class="com">//open your selected file</span><span class="pln">
+    doc</span><span class="pun">.</span><span class="typ">Open</span><span class="pun">(</span><span class="pln">pathToFile</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">,</span><span class="pln"> dsoFileOpenOptions</span><span class="pun">.</span><span class="pln">dsoOptionDefault</span><span class="pun">);</span><span class="pln">
+
+    </span><span class="com">//you can set properties with summaryproperties.nameOfProperty = value; for example</span><span class="pln">
+    doc</span><span class="pun">.</span><span class="typ">SummaryProperties</span><span class="pun">.</span><span class="typ">Company</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"lol"</span><span class="pun">;</span><span class="pln">
+    doc</span><span class="pun">.</span><span class="typ">SummaryProperties</span><span class="pun">.</span><span class="typ">Author</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"me"</span><span class="pun">;</span><span class="pln">
+
+    </span><span class="com">//after making changes, you need to use this line to save them</span><span class="pln">
+    doc</span><span class="pun">.</span><span class="typ">Save</span><span class="pun">();</span></code></pre>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/5349037" title="short permalink to this answer" class="short-link" id="link-post-5349037">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/5349037/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+    <div class="post-signature grid--cell fl0">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/5349037/revisions" title="show all edits to this post">edited <span title="2016-02-26 17:32:09Z" class="relativetime">Feb 26 '16 at 17:32</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/31762/anthonylambert"><div class="gravatar-wrapper-32"><img src="./c# - How to set extended file properties_ - Stack Overflow_files/8d966695b86efcb687c5e6a338542e32.jpeg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/31762/anthonylambert">AnthonyLambert</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">6,744</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="29 silver badges"><span class="badge2"></span><span class="badgecount">29</span></span><span title="63 bronze badges"><span class="badge3"></span><span class="badgecount">63</span></span>
+        </div>
+    </div>
+</div>    </div>
+            
+
+
+    <div class="post-signature owner grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-03-18 07:05:54Z" class="relativetime">Mar 18 '11 at 7:05</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/644891/andree"><div class="gravatar-wrapper-32"><img src="./c# - How to set extended file properties_ - Stack Overflow_files/cb97a7e2690fd37ed69ab4d780daa95e" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/644891/andree">andree</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1,479</span><span title="6 gold badges"><span class="badge1"></span><span class="badgecount">6</span></span><span title="24 silver badges"><span class="badge2"></span><span class="badgecount">24</span></span><span title="37 bronze badges"><span class="badge3"></span><span class="badgecount">37</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-5349037" class="comments js-comments-container ">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="3" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-6075043" class="comment js-comment " data-comment-id="6075043">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">Also 1 more possible problem - when trying to write docs which are created with 64-bit office.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/644891/andree" title="1,479 reputation" class="comment-user owner">andree</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment6075043_5349037"><span title="2011-03-21 07:00:26Z" class="relativetime-clean">Mar 21 '11 at 7:00</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-6075431" class="comment js-comment " data-comment-id="6075431">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">I have office 64-bit and it works great. I haven't experienced any problems as of yet. If you don't mind, which Office version are ya running? I've got Home &amp; Student</span>
+                    –&nbsp;<span class="comment-user">anon271334</span>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment6075431_5349037"><span title="2011-03-21 07:49:07Z" class="relativetime-clean">Mar 21 '11 at 7:49</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-6076821" class="comment js-comment " data-comment-id="6076821">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">I have Professional 64-bit. And it doen't work definetely, while the same code works for 32-bit professional. Seems that there could be problems with some specific 64-bit versions, since the dsofile.dll was written some time ago (2007 I guess) so it might not be ready for some new versions of files. Also found this problem in other forums. To be specific - it doesn't set properties to .doc files, if created in 64-bit pro, but for .docx files it also crashed, showing that file is not an OLE document.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/644891/andree" title="1,479 reputation" class="comment-user owner">andree</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment6076821_5349037"><span title="2011-03-21 10:08:10Z" class="relativetime-clean">Mar 21 '11 at 10:08</span></a></span>
+                        <span title="this comment was edited 1 time">
+                            <svg aria-hidden="true" class="svg-icon va-text-bottom o50 iconPencilSm" width="14" height="15" viewBox="0 0 14 15"><path d="M8.37 4.7L2 11.11V13h1.88l6.37-6.43zM12.23 3.83L11.1 2.71a.5.5 0 0 0-.7 0L9.2 3.86l1.88 1.84 1.14-1.16a.5.5 0 0 0 0-.71z"></path></svg>
+                        </span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-17924015" class="comment js-comment " data-comment-id="17924015">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">Does that work for MS Word files only? MS Office files only? What about PDF files which you mentioned in your question?</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/226958/nicolas-raoul" title="33,138 reputation" class="comment-user">Nicolas Raoul</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment17924015_5349037"><span title="2012-11-01 05:52:33Z" class="relativetime-clean">Nov 1 '12 at 5:52</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-17929438" class="comment js-comment " data-comment-id="17929438">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">3</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">If I remember correctly - this is only for Office files. For PDFs there are other libraries, which provide this functionality.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/644891/andree" title="1,479 reputation" class="comment-user owner">andree</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment17929438_5349037"><span title="2012-11-01 10:35:19Z" class="relativetime-clean">Nov 1 '12 at 10:35</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-5349037" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link " title="expand to show all comments on this post" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" onclick="">show <b>3</b> more comments</a>
+        </div>         
+    </div>    </div>
+</div>
+
+  
+<a name="5338133"></a>
+<div id="answer-5338133" class="answer" data-answerid="5338133" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="5338133">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">7</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>Windows Explorer (using <code>shell32.dll</code>) is able to display the extended properties because it understands a lot of different file formats and can parse these. However, to set an extended property you probably need a file format specific library. E.g. to set the author of an MP3 file file is very different compared to setting the author of an Office document. (Actually Windows Explorer allows you to set some extended properties on Office documents.)</p>
+
+<p>The taglib-sharp only works with media files and is most likely not able to set extended properties of any other type of file.</p>
+
+<p>What you need is a library or a tool you can automate to modify PDF files. You can try to <a href="http://www.google.com/search?q=pdf+sdk">google pdf sdk</a>. If you also need to work with Word files you can use COM automation to automate Word. Depending on the Word file format used you may also be able to work directly with the file without having Word installed (XML being much easier than the old binary "streams" format).</p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/5338133" title="short permalink to this answer" class="short-link" id="link-post-5338133">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/5338133/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/5338133/revisions" title="show all edits to this post">edited <span title="2011-03-17 11:17:24Z" class="relativetime">Mar 17 '11 at 11:17</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2011-03-17 11:05:06Z" class="relativetime">Mar 17 '11 at 11:05</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/98607/martin-liversage"><div class="gravatar-wrapper-32"><img src="./c# - How to set extended file properties_ - Stack Overflow_files/9ccd9dbbb08784dfcc5ac18c6d839b9d.jpeg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/98607/martin-liversage">Martin Liversage</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 80,733" dir="ltr">80.7k</span><span title="16 gold badges"><span class="badge1"></span><span class="badgecount">16</span></span><span title="158 silver badges"><span class="badge2"></span><span class="badgecount">158</span></span><span title="216 bronze badges"><span class="badge3"></span><span class="badgecount">216</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-5338133" class="comments js-comments-container ">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-6026519" class="comment js-comment " data-comment-id="6026519">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">But I'd be very surprised if it understood the file formats itself - I'd expect there'd be something under HKCU for the file extension or file data it references that names a COM object that implements a common interface and does the parsing, so that third-parties can write their own and extend the set of file types supported. (But I can't find this.) But yes, may be easier to just get tools to modify PDFs and DOCs.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/243245/rup" title="26,664 reputation" class="comment-user">Rup</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#comment6026519_5338133"><span title="2011-03-17 11:11:14Z" class="relativetime-clean">Mar 17 '11 at 11:11</span></a></span>
+                        <span title="this comment was edited 1 time">
+                            <svg aria-hidden="true" class="svg-icon va-text-bottom o50 iconPencilSm" width="14" height="15" viewBox="0 0 14 15"><path d="M8.37 4.7L2 11.11V13h1.88l6.37-6.43zM12.23 3.83L11.1 2.71a.5.5 0 0 0-.7 0L9.2 3.86l1.88 1.84 1.14-1.16a.5.5 0 0 0 0-.71z"></path></svg>
+                        </span>
+                                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-5338133" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+
+  
+<a name="31997865"></a>
+<div id="answer-31997865" class="answer" data-answerid="31997865" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="31997865">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">2</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>Thanks @andree, I have search much for answers..
+(For me it worked only with .doc files).
+Added</p>
+
+<pre class="lang-cs prettyprint prettyprinted" style=""><code><span class="kwd">if</span><span class="pln"> </span><span class="pun">(!</span><span class="pln">doc</span><span class="pun">.</span><span class="typ">IsOleFile</span><span class="pun">)</span><span class="pln">
+    </span><span class="typ">Console</span><span class="pun">.</span><span class="typ">ReadLine</span><span class="pun">();</span></code></pre>
+
+<p>Just to check if Ole file..</p>
+
+<p>And Visual Studio as Administrator</p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/31997865" title="short permalink to this answer" class="short-link" id="link-post-31997865">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/31997865/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/31997865/revisions" title="show all edits to this post">edited <span title="2015-08-13 20:38:22Z" class="relativetime">Aug 13 '15 at 20:38</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2015-08-13 20:30:59Z" class="relativetime">Aug 13 '15 at 20:30</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/1712606/f-karlsson"><div class="gravatar-wrapper-32"><img src="./c# - How to set extended file properties_ - Stack Overflow_files/p5DZz.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/1712606/f-karlsson">f_karlsson</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">59</span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-31997865" class="comments js-comments-container  dno">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+            </ul>
+	    </div>
+
+        <div id="comments-link-31997865" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+
+  
+<a name="38247917"></a>
+<div id="answer-38247917" class="answer" data-answerid="38247917" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="38247917">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">1</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>To set properties, you could utilize <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ff728898(v=vs.85).aspx" rel="nofollow">Windows' Property System.</a> It provides an interface for accessing the "Property Store Cache" (IPropertyStore) where you can read/set any file's properties (regardless of the format), and add your own custom properties (the c library propkey.h has a comprehensive list of all available properties; you can also find these using <a href="https://prop.codeplex.com/" rel="nofollow">prop.exe</a>). This is essentially creating a Property Handler that must be later registered to your file extension. It is officially unsupported in managed code, so you might either want to write your own wrapper or use c++ (since this is a c# tagged question). </p>
+
+<p>If you're specifically asking for media properties, check out metadata handlers, which are essentially codecs that extract your properties from the file and also called by explorer by default if you register them correctly.</p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/38247917" title="short permalink to this answer" class="short-link" id="link-post-38247917">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/38247917/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2016-07-07 14:20:39Z" class="relativetime">Jul 7 '16 at 14:20</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/6520374/abdo-salem"><div class="gravatar-wrapper-32"><img src="./c# - How to set extended file properties_ - Stack Overflow_files/44dfbae3ed0f316474d30a08eb979b7a" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/6520374/abdo-salem">Abdo Salem</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">14</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-38247917" class="comments js-comments-container  dno">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+            </ul>
+	    </div>
+
+        <div id="comments-link-38247917" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+                                    <a name="new-answer"></a>
+                        <form id="post-form" action="https://stackoverflow.com/questions/5337683/answer/submit" method="post" class="post-form">
+                            <input type="hidden" id="post-id" value="5337683">
+                            <input type="hidden" id="qualityBanWarningShown" name="qualityBanWarningShown" value="false">
+                            <input type="hidden" name="referrer" value="https://www.google.com/">
+                            <h2 class="space">Your Answer</h2>
+
+
+
+            <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script>
+    
+
+<script>
+    StackExchange.ready(function() {
+        var channelOptions = {
+            tags: "".split(" "),
+            id: "1"
+        };
+        initTagRenderer("".split(" "), "".split(" "), channelOptions);
+       
+        StackExchange.using("externalEditor", function() {
+                // Have to fire editor after snippets, if snippets enabled
+                if (StackExchange.settings.snippets.snippetsEnabled) {
+                    StackExchange.using("snippets", function() {
+                        createEditor();
+                    });
+                }
+                else {
+                    createEditor();
+                }
+            });
+
+            function createEditor() {
+                StackExchange.prepareEditor({
+                    heartbeatType: 'answer',
+                convertImagesToLinks: true,
+                noModals: true,
+                showLowRepImageUploadWarning: true,
+                reputationToPostImages: 10,
+                bindNavPrevention: true,
+                postfix: "",
+                imageUploader: {
+                    brandingHtml: "Powered by \u003ca class=\"icon-imgur-white\" href=\"https://imgur.com/\"\u003e\u003c/a\u003e",
+                    contentPolicyHtml: "User contributions licensed under \u003ca href=\"https://creativecommons.org/licenses/by-sa/3.0/\"\u003ecc by-sa 3.0 with attribution required\u003c/a\u003e \u003ca href=\"https://stackoverflow.com/legal/content-policy\"\u003e(content policy)\u003c/a\u003e",
+                    allowUrls: true
+                },
+                    onDemand: true,
+                    discardSelector: ".discard-answer"
+                    ,immediatelyShowMarkdownHelp:true
+                    });
+                
+
+        }
+    });
+</script>
+
+
+<div id="post-editor" class="post-editor js-post-editor wz-element" data-wz-state="3,4,5,6,7,8">
+
+    <div style="position: relative;"> 
+        <div class="wmd-container">
+            <div id="wmd-button-bar" class="wmd-button-bar btr-sm"><ul id="wmd-button-row" class="wmd-button-row"><li id="wmd-bold-button" class="wmd-button" style="left: 0px;"><span style="background-position: 0px -20px;"></span></li><li id="wmd-italic-button" class="wmd-button" style="left: 25px;"><span style="background-position: -20px -20px;"></span></li><li id="wmd-spacer1" class="wmd-spacer" style="left: 50px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-link-button" class="wmd-button" style="left: 75px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-quote-button" class="wmd-button" style="left: 100px;"><span style="background-position: -60px -20px;"></span></li><li id="wmd-code-button" class="wmd-button" style="left: 125px;"><span style="background-position: -80px -20px;"></span></li><li id="wmd-image-button" class="wmd-button" style="left: 150px;"><span style="background-position: -100px -20px;"></span></li><li id="wmd-spacer2" class="wmd-spacer" style="left: 175px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-olist-button" class="wmd-button" style="left: 200px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-ulist-button" class="wmd-button" style="left: 225px;"><span style="background-position: -140px -20px;"></span></li><li id="wmd-heading-button" class="wmd-button" style="left: 250px;"><span style="background-position: -160px -20px;"></span></li><li id="wmd-hr-button" class="wmd-button" style="left: 275px;"><span style="background-position: -180px -20px;"></span></li><li id="wmd-spacer3" class="wmd-spacer" style="left: 300px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-undo-button" class="wmd-button" style="left: 325px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-redo-button" class="wmd-button" style="left: 350px;"><span style="background-position: -220px -20px;"></span></li><li class="wmd-spacer wmd-spacer-max"></li></ul></div>
+                        <div class="js-stacks-validation">
+                <div class="ps-relative">
+                    <textarea id="wmd-input" class="wmd-input wz-element s-input bar0" name="post-text" cols="92" rows="15" tabindex="101" data-wz-state="8" data-min-length=""></textarea>
+                </div>
+                <div class="s-input-message mt4 d-none js-stacks-validation-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fl" style="margin-top: 8px; height:24px;">&nbsp;</div>
+    <div id="draft-saved" class="draft-saved community-option fl" style="margin-top: 8px; height:24px; display:none;">draft saved</div>
+
+    <div id="draft-discarded" class="draft-discarded community-option fl" style="margin-top: 8px; height:24px; display:none;">draft discarded</div>
+
+
+
+    <div id="wmd-preview" class="wmd-preview"></div>
+    <div></div>
+    <div class="edit-block">
+        <input id="fkey" name="fkey" type="hidden" value="bed654998a48aca0f90cdce7edb2d57ab3a2e2f7c4435acf8ad80342557c3a40">
+        <input id="author" name="author" type="text">
+    </div>
+
+
+
+</div>
+
+                            <div style="position: relative;">
+                                
+                                            <div class="form-item new-post-login">
+        
+                <div class="new-login-form">
+                    <div class="new-login-left">
+                        <h3>Sign up or <a id="login-link" href="https://stackoverflow.com/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f5337683%2fhow-to-set-extended-file-properties%23new-answer">log in</a></h3>
+                        <script>
+                            StackExchange.ready(function () {
+                                StackExchange.helpers.onClickDraftSave('#login-link');
+                            });
+                        </script>
+                        <div class="preferred-login google-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Started - Google&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon native iconGoogle" width="18" height="18" viewBox="0 0 18 18"><g><path d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z" fill="#4285F4"></path><path d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z" fill="#34A853"></path><path d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z" fill="#FBBC05"></path><path d="M8.98 4.18c1.17 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.4L4.5 7.49a4.77 4.77 0 0 1 4.48-3.3z" fill="#EA4335"></path></g></svg> Sign up using Google
+                        </div>
+                        <div class="preferred-login facebook-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Started - Facebook&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon iconFacebook" width="18" height="18" viewBox="0 0 18 18"><path d="M1.88 1C1.4 1 1 1.4 1 1.88v14.24c0 .48.4.88.88.88h7.67v-6.2H7.46V8.4h2.09V6.61c0-2.07 1.26-3.2 3.1-3.2.88 0 1.64.07 1.87.1v2.16h-1.29c-1 0-1.19.48-1.19 1.18V8.4h2.39l-.31 2.42h-2.08V17h4.08c.48 0 .88-.4.88-.88V1.88c0-.48-.4-.88-.88-.88H1.88z" fill="#3C5A96"></path></svg> Sign up using Facebook
+                        </div>
+                        <div class="preferred-login stackexchange-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon native iconLogoGlyphXSm" width="18" height="18" viewBox="0 0 18 18"><g><path fill="#BCBBBB" d="M14 16v-5h2v7H2v-7h2v5z"></path><path d="M5 15v-2h8v2H5zM12.09.72l4.5 6.06-1.2.9-4.51-6.06 1.21-.9zM8.34 4.3l.97-1.16 5.8 4.83-.96 1.16-5.8-4.83zm-1.9 3.36l.64-1.37 6.85 3.19-.63 1.37-6.85-3.2zM5.4 11.39l.38-1.67 7.42 1.48-.22 1.46-7.58-1.27z" fill="#F48024"></path></g></svg> Sign up using Email and Password
+                        </div>
+                    </div>
+                    <input type="hidden" name="manual-openid" class="manual-openid">
+                    <input type="hidden" name="use-facebook" class="use-facebook" value="false">
+                    <input type="hidden" name="use-google" class="use-google" value="false">
+                    <input type="button" class="submit-openid" value="Submit" style="display:none">
+                    <div class="new-login-right">
+                                <h3>Post as a guest</h3>
+    <div class="form-item">
+        <table>
+        <tbody><tr>
+                    <td class="vm">
+                <div>
+                    <label for="display-name">Name</label>
+                    <input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105">
+                </div>
+                <div>
+                    <label for="m-address">Email</label>
+                    <input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown">
+                </div>
+            </td>
+        </tr>
+        </tbody></table>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <script>
+                StackExchange.ready(
+                    function () {
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f5337683%2fhow-to-set-extended-file-properties%23new-answer', 'question_page');
+                    }
+                );
+            </script>
+            <noscript>
+                        <h3>Post as a guest</h3>
+    <div class="form-item">
+        <table>
+        <tr>
+                    <td class="vm">
+                <div>
+                    <label for="display-name">Name</label>
+                    <input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105">
+                </div>
+                <div>
+                    <label for="m-address">Email</label>
+                    <input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown" />
+                </div>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+            </noscript>
+
+                            </div>
+
+                                                            <div class="form-submit cbt grid gsx gs4">
+                                        <button id="submit-button" class="grid--cell s-btn s-btn__primary" type="submit" tabindex="120" autocomplete="off">
+Post Your Answer                                        </button>
+                                        <button class="grid--cell s-btn s-btn__danger discard-answer dno">Discard</button>
+                                                                            <p class="privacy-policy-agreement">
+                                            
+
+By clicking "Post Your Answer", you acknowledge that you have read our updated <a href="https://stackoverflow.com/legal/terms-of-service/public" name="tos" target="_blank" class="-link">terms of service</a>, <a href="https://stackoverflow.com/legal/privacy-policy" name="privacy" target="_blank" class="-link">privacy policy</a> and <a href="https://stackoverflow.com/legal/cookie-policy" name="cookie" target="_blank" class="-link">cookie policy</a>, and that your continued use of the website is subject to these policies.
+
+<input type="hidden" name="legalLinksShown" value="1">
+                                        </p>
+                                </div>
+                        </form>
+
+
+
+                        <h2 class="bottom-notice" data-loc="1">
+Not the answer you're looking for?                            Browse other questions tagged <a href="https://stackoverflow.com/questions/tagged/c%23" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a>  or <a href="https://stackoverflow.com/questions/ask">ask your own question</a>.                        </h2>
+            </div>
+        </div>
+                <div id="sidebar" class="show-votes" role="complementary" aria-label="sidebar">
+                            <div class="module question-stats">
+                    <table id="qinfo">
+                        <tbody><tr>
+                            <td>
+                                <p class="label-key">asked</p>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <p class="label-key" title="2011-03-17 10:16:21Z"><b>7 years, 7 months ago</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="label-key">viewed</p>
+                            </td>
+
+                            <td style="padding-left: 10px">
+                                <p class="label-key">
+                                    <b>33,905 times</b>
+                                </p>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    <p class="label-key">active</p>
+                                </td>
+                                <td style="padding-left: 10px">
+                                    <p class="label-key"><b><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties?lastactivity" class="lastactivity-link" title="2017-10-12 14:17:32Z">1 year ago</a></b></p>
+                                </td>
+                            </tr>
+                    </tbody></table>
+                </div>
+            
+            
+<div id="dfp-tsb" class="everyonelovesstackoverflow everyoneloves__top-sidebar" data-google-query-id="CLrp1bKOs94CFUUeKgodr8MMQQ" data-clc-ready="true" style="min-height: auto; height: auto; display: none;"><div id="google_ads_iframe_/248424177/stackoverflow.com/sb/question-pages_0__container__" style="border: 0pt none; min-height: auto; height: auto; display: none;"><iframe id="google_ads_iframe_/248424177/stackoverflow.com/sb/question-pages_0" title="3rd party ad content" name="google_ads_iframe_/248424177/stackoverflow.com/sb/question-pages_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom; min-height: auto; height: auto; display: none;" data-google-container-id="3" data-load-complete="true" src="./c# - How to set extended file properties_ - Stack Overflow_files/saved_resource(2).html"></iframe></div></div>
+            <div id="hireme" class="blue tagged tex2jax_ignore x-rem clc-jobs-multi"><a class="top " href="https://stackoverflow.com/jobs/remote-developer-jobs" target="_blank" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=10439&amp;ct=1&amp;url=https%3A%2F%2Fstackoverflow.com%2Fjobs%2Fremote-developer-jobs%3Fmed=clc&amp;sig=olr-rHLa8VZnIw"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46"><g fill="#FFF"><path d="M33.35 25.265H11.955c-3.036.182-5.642-2.15-5.823-5.211-.18-3.06 2.133-5.69 5.168-5.871.323-4.711 3.746-8.615 8.343-9.514 4.597-.9 9.22 1.43 11.266 5.677a7.54 7.54 0 0 1 7.96 2.15 7.694 7.694 0 0 1 1.313 8.204 7.58 7.58 0 0 1-6.887 4.565h.055z" opacity=".3"></path><path d="M39.181 18.453a7.301 7.301 0 0 0-1.245-7.784 7.148 7.148 0 0 0-7.546-2.04.392.392 0 0 1-.477-.205c-1.948-4.128-6.418-6.405-10.868-5.536-4.45.87-7.755 4.664-8.035 9.229a.393.393 0 0 1-.368.368c-2.819.169-4.968 2.611-4.8 5.456.168 2.844 2.59 5.011 5.43 4.841h21.381a7.188 7.188 0 0 0 6.528-4.33zm-.66-8.309a8.087 8.087 0 0 1 1.38 8.624 7.973 7.973 0 0 1-7.244 4.8h-21.36c-3.253.194-6.045-2.305-6.239-5.581-.186-3.16 2.113-5.892 5.194-6.256.44-4.77 3.95-8.698 8.643-9.614 4.692-.916 9.404 1.407 11.578 5.667 2.9-.81 6.019.095 8.048 2.36z"></path><path d="M18.948 5.75l.614-.151a.393.393 0 0 0-.188-.763l-.613.151a.393.393 0 0 0 .187.763zm-4.977 5.15a7.252 7.252 0 0 1 2.807-4.083.393.393 0 0 0-.456-.64 8.038 8.038 0 0 0-3.11 4.525.393.393 0 0 0 .759.198zm14.841 18.6v7.659a2.346 2.346 0 0 1-2.335 2.357h-9.695a2.346 2.346 0 0 1-2.335-2.357V29.5a.393.393 0 1 0-.785 0v7.659c0 1.735 1.396 3.143 3.12 3.143h9.695c1.724 0 3.12-1.408 3.12-3.143V29.5a.393.393 0 1 0-.785 0z"></path><path d="M16.904 29.431v-6.256a.393.393 0 1 0-.785 0v6.256a.393.393 0 1 0 .785 0zm9.419 0v-6.256a.393.393 0 1 0-.785 0v6.256a.393.393 0 1 0 .785 0zm-4.7 8.052c-.978 0-1.77-.798-1.77-1.782 0-.983.792-1.781 1.77-1.781s1.77.798 1.77 1.781c0 .984-.792 1.782-1.77 1.782zm0-.786a.99.99 0 0 0 .985-.996.99.99 0 0 0-.985-.996.99.99 0 0 0-.985.996c0 .55.441.996.985.996z"></path><path d="M11.955 29.631h19.322a.393.393 0 0 0 0-.786H11.955a.393.393 0 0 0 0 .786zm28.295 8.455h-2.073c-1.723 0-3.12 1.408-3.12 3.143v1.375a2.346 2.346 0 0 1-2.334 2.357h-8.346a2.346 2.346 0 0 1-2.335-2.357v-2.75a.393.393 0 1 0-.784 0v2.75c0 1.735 1.396 3.143 3.12 3.143h8.345c1.723 0 3.12-1.408 3.12-3.143v-1.375a2.346 2.346 0 0 1 2.334-2.357h2.073a.393.393 0 0 0 0-.786z"></path></g></svg><span>Work from anywhere</span></a><div class="middle"><ul class="jobs"><li class="clc-dismissable"><div class="job-wrap"><a class="job" title="Software Engineer - San Francisco OR Remote - USA at HelloSign. Click to learn more." href="https://stackoverflow.com/jobs/197849/software-engineer-san-francisco-or-remote-usa-hellosign" target="_blank" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=350843&amp;ct=0&amp;url=https%3A%2F%2Fstackoverflow.com%2Fjobs%2F197849%2Fsoftware-engineer-san-francisco-or-remote-usa-hellosign%3Fmed=clc&amp;sig=zizCSj7TzxoSgw"><div class="title">Software Engineer - San Francisco OR Remote - USA</div><div><span class="company">HelloSign</span><span class="location"><svg viewBox="0 0 12 12"><path d="M6 5.7c.4 0 .7-.1.9-.4.3-.3.4-.6.4-.9 0-.4-.1-.7-.4-.9-.2-.3-.5-.4-.9-.4s-.7.1-.9.4c-.3.2-.4.5-.4.9s.1.7.4.9c.2.3.5.4.9.4zm0-5c1 0 1.9.4 2.6 1.1.7.7 1.1 1.6 1.1 2.6 0 .5-.1 1.1-.4 1.8s-.5 1.3-.9 1.9c-.4.5-.7 1.1-1.1 1.6-.4.5-.7.9-.9 1.2l-.4.4c-.1-.1-.2-.3-.4-.5s-.5-.6-.9-1.2c-.4-.5-.8-1-1.1-1.6s-.7-1.1-.9-1.8c-.3-.7-.4-1.3-.4-1.8 0-1 .4-1.9 1.1-2.6S5 .7 6 .7z"></path></svg><span>San Francisco, CA</span></span></div><div class="opts"><span class="opt salary"><span>$125k - $200k</span></span><span class="opt remote"><svg viewBox="0 0 12 12"><path d="M6 9.8L3.9 7.7c1.3-.9 3-.9 4.2 0L6 9.8zm3-3a4.81 4.81 0 0 0-6 0L2.2 6c2.2-1.8 5.5-1.8 7.7 0l-.9.8zm1.7-1.7a7.27 7.27 0 0 0-9.4 0l-.9-.8c3.2-2.8 7.9-2.8 11.1 0l-.8.8z"></path></svg><span>Remote</span></span></div><span class="post-tag">php</span><span class="post-tag">web-services</span><div></div></a></div><a class="clc-dismiss" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=350843&amp;ct=-1&amp;sig=vvaw9ovX_CHrlg" data-clc-meta-target="-1"><svg viewBox="0 0 13.6 13.6"><path d="M11.4 2.3C8.9-.2 4.8-.2 2.3 2.3s-2.5 6.6 0 9.1 6.6 2.5 9.1 0 2.5-6.6 0-9.1zM8.6 9.5L6.8 7.7 5 9.5l-.9-.9 1.8-1.8L4.1 5l.9-.9 1.8 1.8 1.8-1.8.9.9-1.8 1.8 1.8 1.8-.9.9z"></path></svg><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" title="Remote Engineering Team Lead for funded AngelPad Co. - AngularJS/Scala at Process Street. Click to learn more." href="https://stackoverflow.com/jobs/190149/remote-engineering-team-lead-for-funded-angelpad-process-street" target="_blank" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=341965&amp;ct=0&amp;url=https%3A%2F%2Fstackoverflow.com%2Fjobs%2F190149%2Fremote-engineering-team-lead-for-funded-angelpad-process-street%3Fmed=clc&amp;sig=wmkmYI_KPvrfSg"><div class="title">Remote Engineering Team Lead for funded AngelPad Co. - AngularJS/Scala</div><div><span class="company">Process Street</span><span class="location"><svg viewBox="0 0 12 12"><path d="M6 5.7c.4 0 .7-.1.9-.4.3-.3.4-.6.4-.9 0-.4-.1-.7-.4-.9-.2-.3-.5-.4-.9-.4s-.7.1-.9.4c-.3.2-.4.5-.4.9s.1.7.4.9c.2.3.5.4.9.4zm0-5c1 0 1.9.4 2.6 1.1.7.7 1.1 1.6 1.1 2.6 0 .5-.1 1.1-.4 1.8s-.5 1.3-.9 1.9c-.4.5-.7 1.1-1.1 1.6-.4.5-.7.9-.9 1.2l-.4.4c-.1-.1-.2-.3-.4-.5s-.5-.6-.9-1.2c-.4-.5-.8-1-1.1-1.6s-.7-1.1-.9-1.8c-.3-.7-.4-1.3-.4-1.8 0-1 .4-1.9 1.1-2.6S5 .7 6 .7z"></path></svg><span>No office location</span></span></div><div class="opts"><span class="opt salary"><span>$120k - $150k</span></span><span class="opt remote"><svg viewBox="0 0 12 12"><path d="M6 9.8L3.9 7.7c1.3-.9 3-.9 4.2 0L6 9.8zm3-3a4.81 4.81 0 0 0-6 0L2.2 6c2.2-1.8 5.5-1.8 7.7 0l-.9.8zm1.7-1.7a7.27 7.27 0 0 0-9.4 0l-.9-.8c3.2-2.8 7.9-2.8 11.1 0l-.8.8z"></path></svg><span>Remote</span></span></div><span class="post-tag">scala</span><span class="post-tag">javascript</span><div></div></a></div><a class="clc-dismiss" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=341965&amp;ct=-1&amp;sig=JS7XqmdruN_4cQ" data-clc-meta-target="-1"><svg viewBox="0 0 13.6 13.6"><path d="M11.4 2.3C8.9-.2 4.8-.2 2.3 2.3s-2.5 6.6 0 9.1 6.6 2.5 9.1 0 2.5-6.6 0-9.1zM8.6 9.5L6.8 7.7 5 9.5l-.9-.9 1.8-1.8L4.1 5l.9-.9 1.8 1.8 1.8-1.8.9.9-1.8 1.8 1.8 1.8-.9.9z"></path></svg><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" title="Cloud- Cloud Engineer at Elastic. Click to learn more." href="https://stackoverflow.com/jobs/200513/cloud-cloud-engineer-elastic" target="_blank" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=354050&amp;ct=0&amp;url=https%3A%2F%2Fstackoverflow.com%2Fjobs%2F200513%2Fcloud-cloud-engineer-elastic%3Fmed=clc&amp;sig=BuG3p1Vkj-N6XA"><div class="title">Cloud- Cloud Engineer</div><div><span class="company">Elastic</span><span class="location"><svg viewBox="0 0 12 12"><path d="M6 5.7c.4 0 .7-.1.9-.4.3-.3.4-.6.4-.9 0-.4-.1-.7-.4-.9-.2-.3-.5-.4-.9-.4s-.7.1-.9.4c-.3.2-.4.5-.4.9s.1.7.4.9c.2.3.5.4.9.4zm0-5c1 0 1.9.4 2.6 1.1.7.7 1.1 1.6 1.1 2.6 0 .5-.1 1.1-.4 1.8s-.5 1.3-.9 1.9c-.4.5-.7 1.1-1.1 1.6-.4.5-.7.9-.9 1.2l-.4.4c-.1-.1-.2-.3-.4-.5s-.5-.6-.9-1.2c-.4-.5-.8-1-1.1-1.6s-.7-1.1-.9-1.8c-.3-.7-.4-1.3-.4-1.8 0-1 .4-1.9 1.1-2.6S5 .7 6 .7z"></path></svg><span>No office location</span></span></div><div class="opts"><span class="opt remote"><svg viewBox="0 0 12 12"><path d="M6 9.8L3.9 7.7c1.3-.9 3-.9 4.2 0L6 9.8zm3-3a4.81 4.81 0 0 0-6 0L2.2 6c2.2-1.8 5.5-1.8 7.7 0l-.9.8zm1.7-1.7a7.27 7.27 0 0 0-9.4 0l-.9-.8c3.2-2.8 7.9-2.8 11.1 0l-.8.8z"></path></svg><span>Remote</span></span></div><span class="post-tag">elasticsearch</span><span class="post-tag">cloud</span><div></div></a></div><a class="clc-dismiss" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=354050&amp;ct=-1&amp;sig=TOROERP0OErz-g" data-clc-meta-target="-1"><svg viewBox="0 0 13.6 13.6"><path d="M11.4 2.3C8.9-.2 4.8-.2 2.3 2.3s-2.5 6.6 0 9.1 6.6 2.5 9.1 0 2.5-6.6 0-9.1zM8.6 9.5L6.8 7.7 5 9.5l-.9-.9 1.8-1.8L4.1 5l.9-.9 1.8 1.8 1.8-1.8.9.9-1.8 1.8 1.8 1.8-.9.9z"></path></svg><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" title="Remote Senior Php Developer, Work from home at Codeline. Click to learn more." href="https://stackoverflow.com/jobs/201461/remote-senior-php-developer-work-from-home-codeline" target="_blank" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=355227&amp;ct=0&amp;url=https%3A%2F%2Fstackoverflow.com%2Fjobs%2F201461%2Fremote-senior-php-developer-work-from-home-codeline%3Fmed=clc&amp;sig=vebCLcTWTJczLw"><div class="title">Remote Senior Php Developer, Work from home</div><div><span class="company">Codeline</span><span class="location"><svg viewBox="0 0 12 12"><path d="M6 5.7c.4 0 .7-.1.9-.4.3-.3.4-.6.4-.9 0-.4-.1-.7-.4-.9-.2-.3-.5-.4-.9-.4s-.7.1-.9.4c-.3.2-.4.5-.4.9s.1.7.4.9c.2.3.5.4.9.4zm0-5c1 0 1.9.4 2.6 1.1.7.7 1.1 1.6 1.1 2.6 0 .5-.1 1.1-.4 1.8s-.5 1.3-.9 1.9c-.4.5-.7 1.1-1.1 1.6-.4.5-.7.9-.9 1.2l-.4.4c-.1-.1-.2-.3-.4-.5s-.5-.6-.9-1.2c-.4-.5-.8-1-1.1-1.6s-.7-1.1-.9-1.8c-.3-.7-.4-1.3-.4-1.8 0-1 .4-1.9 1.1-2.6S5 .7 6 .7z"></path></svg><span>No office location</span></span></div><div class="opts"><span class="opt salary"><span>$33k - $42k</span></span><span class="opt remote"><svg viewBox="0 0 12 12"><path d="M6 9.8L3.9 7.7c1.3-.9 3-.9 4.2 0L6 9.8zm3-3a4.81 4.81 0 0 0-6 0L2.2 6c2.2-1.8 5.5-1.8 7.7 0l-.9.8zm1.7-1.7a7.27 7.27 0 0 0-9.4 0l-.9-.8c3.2-2.8 7.9-2.8 11.1 0l-.8.8z"></path></svg><span>Remote</span></span></div><span class="post-tag">php</span><span class="post-tag">javascript</span><div></div></a></div><a class="clc-dismiss" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=355227&amp;ct=-1&amp;sig=MNeHLifjNQc9mw" data-clc-meta-target="-1"><svg viewBox="0 0 13.6 13.6"><path d="M11.4 2.3C8.9-.2 4.8-.2 2.3 2.3s-2.5 6.6 0 9.1 6.6 2.5 9.1 0 2.5-6.6 0-9.1zM8.6 9.5L6.8 7.7 5 9.5l-.9-.9 1.8-1.8L4.1 5l.9-.9 1.8 1.8 1.8-1.8.9.9-1.8 1.8 1.8 1.8-.9.9z"></path></svg><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="x-rem-footer"><p>Work remotely - from home or wherever you choose.</p><a class="x-rem-cta" href="https://stackoverflow.com/jobs/remote-developer-jobs" target="_blank" data-clc-click="https://clc.stackoverflow.com/click?an=41olWv39nf01D1UTPT9nJiaWy0-OMi23f7Px7JfJptmMH_1uBxwPZJBk6NnAwNBgz8jIwCLNNHUH1-SjPL-3iALFUw48l-y25Lr1y06aac5_zr__uc--FwGLH1EqsuQ-uhEo3nmaq_MeT9M5iPorLEmW8y8vB4q_ucg1-znP7OsQ8eNbGyyX_blox9Ax4xqH0oO9LIVWAA&amp;cr=10439&amp;ct=2&amp;url=https%3A%2F%2Fstackoverflow.com%2Fjobs%2Fremote-developer-jobs%3Fmed=clc&amp;sig=fKVWGSNtGYqoIA">Browse remote jobs</a></li></ul></div><img src="./c# - How to set extended file properties_ - Stack Overflow_files/impression.gif" class="impression" style="display: none;"></div>
+<script>;try{(function(a){function b(a){return'string'==typeof a?document.getElementById(a):a}function c(a){return a=b(a),!!a&&'none'===getComputedStyle(a).display}function d(a){return!c(a)}function e(a){return!!a}function f(a){return /^\s*$/.test(b(a).innerHTML)}function g(a){var b=a.style;b.height=b.maxHeight=b.minHeight='auto',b.display='none',[].forEach.call(a.children,g)}function h(a,b){var c;return function(){return a&&(c=a.call(b||this,arguments),a=null),c}}function i(a){var b=document.createElement('script');b.src=a,document.body.appendChild(b)}function j(a){return k([],a)}function k(a,b){return a.push=function(a){return b(),delete this.push,this.push(a)},a}function l(){try{return!new Function('return async()=>{};')}catch(a){return!0}}function m(){return'undefined'!=typeof googletag&&!!googletag.apiReady}function n(){m()||(googletag={cmd:j(A)})}function o(){var a=document.createElement('div');a.className='adsbox',a.id='clc-abd',a.style.position='absolute',a.style.pointerEvents='none',a.innerHTML='&nbsp;',document.body.appendChild(a)}function p(a){var b=a.serviceName,c=a.slot,d=a.lineItemId;try{var e=c.getSlotElementId(),f=[];e||f.push('id=0');var h=document.getElementById(e);if(!e||h?h.hasAttribute('data-clc-stalled')&&f.push('st=1'):f.push('el=0'),0!==f.length)return void B(f.join('&'));-1===x.dh.indexOf(d)?h.setAttribute('data-clc-prefilled','true'):g(h),h.setAttribute('data-clc-ready','true')}catch(a){var i=document.querySelector('#dfp-tsb, #dfp-isb, #clc-tsb');i&&i.setAttribute('data-clc-ready','true'),B('e=1')}}function q(){return Object.keys(F.ids)}function r(a){var b=F.ids[a],c=F.slots[b];'function'==typeof c&&(c=c(a));return{path:'/'+C+'/'+E+'/'+b+'/'+D,sizes:c,zone:b}}function s(a){return!(clc.collapse&&void 0!==clc.collapse[a])||!!clc.collapse[a]}function t(a,b){'dfp-isb'===a&&b.setTargeting('Sidebar',['Inline']),'dfp-tsb'===a&&b.setTargeting('Sidebar',['Right']);var c=r(a),d=c.path,e=c.sizes,f=c.zone,g=googletag.defineSlot(d,e,a);s(f)&&g.setCollapseEmptyDiv(!0,!0),g.addService(b),!1}function u(b){var c=a.dfp&&a.dfp.targeting||{};Object.keys(c).forEach(function(a){b.setTargeting(a,c[a])})}function v(a){var g=a.map(b).filter(e);return{eligible:g.filter(f).filter(d).map(function(a){return a.id}),ineligible:g.filter(c)}}function w(b){if(void 0===b&&(b=q()),!m())return n(),void googletag.cmd.push(function(){return w(b)});var c=v(b),d=c.eligible,e=c.ineligible;if(e.forEach(g),0!==d.length){o(),googletag.destroySlots();var f=googletag.pubads();f.enableSingleRequest(),a.sreEvent||(f.addEventListener('slotRenderEnded',p),a.sreEvent=!0),u(f),d.forEach(function(a){return t(a,f)}),googletag.enableServices(),d.forEach(function(a){googletag.display(a)})}}var x=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a}({"lib":"https://cdn.sstatic.net/clc/clc.min.js?v=04d772c81312","style":"https://cdn.sstatic.net/clc/styles/clc.min.css?v=1db48f495ba1","u":"https://clc.stackoverflow.com/markup.js","wa":true,"kt":2000,"tto":true,"h":"clc.stackoverflow.com","allowed":"^(((talent\\.)?stackoverflow)|(blog\\.codinghorror)|(serverfault|askubuntu)|([^\\.]+\\.stackexchange))\\.com$","wv":true,"al":false,"dh":[4385506061,4386578282,4386579572]},a.options||{}),y=h(function(){var a=x.lib;l()&&(a=a.replace(/(\.min)?\.js(\?v=[0-9a-fA-F]+)?$/,'.ie$1.js$2')),i(a)}),z=a.cmd||[];Array.isArray(z)&&(0<z.length?y():k(z,y));var A=h(function(){i('https://www.googletagservices.com/tag/js/gpt.js')}),B=function(a){new Image().src='https://'+x.h+'/stalled.gif?'+a},C='248424177',D=/^\/tags\//.test(location.pathname)||/^\/questions\/tagged\//.test(location.pathname)?'tag-pages':'question-pages',E=location.hostname;var F={slots:{lb:[[728,90]],mlb:[[728,90]],sb:function(a){return'dfp-tsb'===a?[[300,250],[300,600]]:[[300,250]]},"tag-sponsorship":[[730,135]],"mobile-below-question":[[320,50],[300,250]]},ids:{"dfp-tlb":'lb',"dfp-mlb":'mlb',"dfp-tsb":'sb',"dfp-isb":'sb',"dfp-tag":'tag-sponsorship',"dfp-m-aq":'mobile-below-question',"clc-tlb":'lb',"clc-mlb":'mlb',"clc-tsb":'sb'}};(function(){var b=x.al;b&&z.push(function(){return a.load()})})(),n(),a.dfp={load:w},a.options=x,a.cmd=z})(this.clc=this.clc||{})}catch(a){window.console.error(a)}</script>            <script>
+                var clc = clc || {};
+                clc.collapse = { sb: !0,'tag-sponsorship':!0,lb:!1,mlb:!1,'mobile-below-question':!0};
+                clc.cmd = clc.cmd || [];
+                clc.cmd.push(function () { window.clc_request='AtY0gPbuP9YIAAAAAFNyUQACAAAAAgAAAAAEAAAAfGMjfAAk0W4sGVOCrEgS'; clc.load(); });
+                                clc.dfp = clc.dfp || {};
+                clc.dfp.targeting = {Registered:['false'],'so-tag':['c_sharp']};
+                
+                var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                googletag.cmd.push(function () { clc.dfp.load(); });
+            </script><div class="module" id="chat-feature">
+
+    <h4><a href="http://chat.stackoverflow.com/" id="h-chat-link" title="74 users active in 58 rooms the last 60 minutes">74 People Chatting</a></h4>
+    <div class="related" id="ad502-rooms"><div class="ad502-room"><h3 class="ad502-room-h3"><span class="ad502-room-title" title="SO Close Vote Reviewers"><a href="http://chat.stackoverflow.com/rooms/41570">SO Close Vote Reviewers</a></span></h3><span title="2018-11-01 10:31:18Z" class="ad502-last-message">1 hour ago - <a href="http://chat.stackoverflow.com/users/608639">jww</a></span><br><div class="ad502-users"><a href="http://chat.stackoverflow.com/users/608639"><img height="23" width="23" title="jww: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/aPIhh.jpg"></a><a href="http://chat.stackoverflow.com/users/2469308"><img height="23" width="23" title="Madhur Bhaiya: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/rlO88.jpg"></a><a href="http://chat.stackoverflow.com/users/3735529"><img height="23" width="23" title="SmokeDetector: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/7cmCt.png"></a><a href="http://chat.stackoverflow.com/users/6373379"><img height="23" width="23" title="FireAlarm: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/erE0E.jpg"></a><a href="http://chat.stackoverflow.com/users/874188"><img height="23" width="23" title="tripleee: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/091f411d57db5be8298e057a32e5ad72.png"></a><a href="http://chat.stackoverflow.com/users/469080"><img height="23" width="23" title="Michael Dodd: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/JtJZV.png"></a><a href="http://chat.stackoverflow.com/users/4826457"><img height="23" width="23" title="Suraj Rao: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/hXT0U.jpg"></a></div></div><div class="ad502-room"><h3 class="ad502-room-h3"><span class="ad502-room-title" title="Python"><a href="http://chat.stackoverflow.com/rooms/6">Python</a></span></h3><span title="2018-11-01 10:35:53Z" class="ad502-last-message">1 hour ago - <a href="http://chat.stackoverflow.com/users/2681632">Ilja Everilä</a></span><br><div class="ad502-users"><a href="http://chat.stackoverflow.com/users/2681632"><img height="23" width="23" title="Ilja Everilä: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/1M4Vi.jpg"></a><a href="http://chat.stackoverflow.com/users/9793780"><img height="23" width="23" title="Akhil Alexander: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/photo.jpg"></a><a href="http://chat.stackoverflow.com/users/1578604"><img height="23" width="23" title="Jerry: 1 hour ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/a6f4afcfb542030d9f7918a873b7b404.png"></a><a href="http://chat.stackoverflow.com/users/1222951"><img height="23" width="23" title="Aran-Fey: 2 hours ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/s64JD.png"></a><a href="http://chat.stackoverflow.com/users/2689986"><img height="23" width="23" title="shad0w_wa1k3r: 3 hours ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/3Y7wX.jpg"></a><a href="http://chat.stackoverflow.com/users/4344586"><img height="23" width="23" title="Frank AK: 8 hours ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/MjE1L.jpg"></a><a href="http://chat.stackoverflow.com/users/1440565"><img height="23" width="23" title="Code-Apprentice: 13 hours ago" src="./c# - How to set extended file properties_ - Stack Overflow_files/ec430cc01ef4cf4ae63ebbe9e8596f72.png"></a></div></div></div>
+    <script>
+    // <!--
+        StackExchange.ready(
+        function () {
+            var options = {
+                chatUrl: 'http://chat.stackoverflow.com',
+                reloadUrl: '/api/recent-chat',
+                preloadData: {"activeUsers":74,"activeRooms":58,"rooms":[{"name":"SO Close Vote Reviewers","id":41570,"lastPost":1541068278,"posts":835497,"users":[{"name":"jww","id":608639,"emailhash":"!https://i.stack.imgur.com/aPIhh.jpg?s=128\u0026g=1","lastPost":1541068278},{"name":"Madhur Bhaiya","id":2469308,"emailhash":"!https://i.stack.imgur.com/rlO88.jpg?s=128\u0026g=1","lastPost":1541068124},{"name":"SmokeDetector","id":3735529,"emailhash":"!https://i.stack.imgur.com/7cmCt.png?s=128\u0026g=1","lastPost":1541067707},{"name":"FireAlarm","id":6373379,"emailhash":"!https://i.stack.imgur.com/erE0E.jpg?s=128\u0026g=1","lastPost":1541067535},{"name":"tripleee","id":874188,"emailhash":"091f411d57db5be8298e057a32e5ad72","lastPost":1541066688},{"name":"Michael Dodd","id":469080,"emailhash":"!https://i.stack.imgur.com/JtJZV.png?s=128\u0026g=1","lastPost":1541066610},{"name":"Suraj Rao","id":4826457,"emailhash":"!https://i.stack.imgur.com/hXT0U.jpg?s=128\u0026g=1","lastPost":1541065841}],"messages":[{"date":1541068278,"user":"jww","userid":608639}],"singleImage":false,"tags":["discussion","moderation","review"]},{"name":"Python","id":6,"lastPost":1541068553,"posts":1557136,"users":[{"name":"Ilja Everilä","id":2681632,"emailhash":"!https://i.stack.imgur.com/1M4Vi.jpg?s=128\u0026g=1","lastPost":1541068553},{"name":"Akhil Alexander","id":9793780,"emailhash":"!https://lh4.googleusercontent.com/-BYqnN-8fyZY/AAAAAAAAAAI/AAAAAAAAAC0/5qPqwHZLEUE/photo.jpg?sz=128","lastPost":1541068457},{"name":"Jerry","id":1578604,"emailhash":"a6f4afcfb542030d9f7918a873b7b404","lastPost":1541068435},{"name":"Aran-Fey","id":1222951,"emailhash":"!https://i.stack.imgur.com/s64JD.png?s=128\u0026g=1","lastPost":1541064620},{"name":"shad0w_wa1k3r","id":2689986,"emailhash":"!https://i.stack.imgur.com/3Y7wX.jpg?s=128\u0026g=1","lastPost":1541058818},{"name":"Frank AK","id":4344586,"emailhash":"!https://i.stack.imgur.com/MjE1L.jpg?s=128\u0026g=1","lastPost":1541041219},{"name":"Code-Apprentice","id":1440565,"emailhash":"ec430cc01ef4cf4ae63ebbe9e8596f72","lastPost":1541023773}],"messages":[{"date":1541068553,"user":"Ilja Everilä","userid":2681632}],"singleImage":false,"tags":["python","python-2.x","python-3.x"]}]} 
+            };
+
+            StackExchange.chatAd.init(options);
+        });
+    // -->
+    </script>
+
+</div>
+            <div class="module sidebar-linked">
+	<h4 id="h-linked">Linked</h4>
+	<div class="linked" data-tracker="lq=1">
+
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/220097?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">89</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/220097/read-write-extended-file-properties-c?noredirect=1&amp;lq=1" class="question-hyperlink">Read/Write 'Extended' file properties (C#)</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/18250281?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">7</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/18250281/reading-writing-metadata-of-audio-video-files?noredirect=1&amp;lq=1" class="question-hyperlink">Reading/Writing metadata of audio/video files</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/16638570?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">6</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/16638570/powershell-how-to-set-title-in-extended-file-properties?noredirect=1&amp;lq=1" class="question-hyperlink">Powershell - how to set “title” in extended file properties</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/24040248?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">3</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/24040248/is-it-possible-to-set-edit-a-file-extended-properties-with-windows-api-code-pack?noredirect=1&amp;lq=1" class="question-hyperlink">Is it possible to set/edit a file extended properties with Windows API Code Pack?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/37789372?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">3</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/37789372/c-sharp-add-edit-and-delete-tags-of-file?noredirect=1&amp;lq=1" class="question-hyperlink">C# - Add, edit and delete tags of file</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/8384426?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">2</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/8384426/write-file-extended-property-revision-number-on-all-type-of-files?noredirect=1&amp;lq=1" class="question-hyperlink">Write file extended property “Revision Number” on all type of files</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/13172129?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">2</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/13172129/store-metadata-outside-of-file-any-standard-approach-on-modern-windows?noredirect=1&amp;lq=1" class="question-hyperlink">Store metadata outside of file: Any standard approach on modern Windows?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/10364494?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/10364494/how-to-set-file-description-with-c?noredirect=1&amp;lq=1" class="question-hyperlink">How to set file description with C#?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/11457716?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/11457716/modify-file-properties-in-c-sharp-other-than-date?noredirect=1&amp;lq=1" class="question-hyperlink">Modify File Properties in C# Other Than Date</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/25628566?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">3</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/25628566/acquisition-date-of-a-file?noredirect=1&amp;lq=1" class="question-hyperlink">Acquisition date of a file</a>
+</div>					<div class="spacer more">
+				<a href="https://stackoverflow.com/questions/linked/5337683?lq=1">see more linked questions…</a>
+			</div>
+	</div>
+</div>
+
+                <div class="module sidebar-related">
+                    <h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/9?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1743</div></a><a href="https://stackoverflow.com/questions/9/how-do-i-calculate-someones-age-in-c?rq=1" class="question-hyperlink">How do I calculate someone's age in C#?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/40730?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1498</div></a><a href="https://stackoverflow.com/questions/40730/how-do-you-give-a-c-sharp-auto-property-a-default-value?rq=1" class="question-hyperlink">How do you give a C# Auto-Property a default value?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/105372?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">3219</div></a><a href="https://stackoverflow.com/questions/105372/how-do-i-enumerate-an-enum-in-c?rq=1" class="question-hyperlink">How do I enumerate an enum in C#?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/151005?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1625</div></a><a href="https://stackoverflow.com/questions/151005/create-excel-xls-and-xlsx-file-from-c-sharp?rq=1" class="question-hyperlink">Create Excel (.XLS and .XLSX) file from C#</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/472906?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1964</div></a><a href="https://stackoverflow.com/questions/472906/how-do-i-get-a-consistent-byte-representation-of-strings-in-c-sharp-without-manu?rq=1" class="question-hyperlink">How do I get a consistent byte representation of strings in C# without manually specifying an encoding?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/489258?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted large">825</div></a><a href="https://stackoverflow.com/questions/489258/linqs-distinct-on-a-particular-property?rq=1" class="question-hyperlink">LINQ's Distinct() on a particular property</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/3309188?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted large">947</div></a><a href="https://stackoverflow.com/questions/3309188/how-to-sort-a-listt-by-a-property-in-the-object?rq=1" class="question-hyperlink">How to Sort a List&lt;T&gt; by a property in the object</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/4660142?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1878</div></a><a href="https://stackoverflow.com/questions/4660142/what-is-a-nullreferenceexception-and-how-do-i-fix-it?rq=1" class="question-hyperlink">What is a NullReferenceException, and how do I fix it?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/21692193?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1044</div></a><a href="https://stackoverflow.com/questions/21692193/why-not-inherit-from-listt?rq=1" class="question-hyperlink">Why not inherit from List&lt;T&gt;?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/24040248?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">3</div></a><a href="https://stackoverflow.com/questions/24040248/is-it-possible-to-set-edit-a-file-extended-properties-with-windows-api-code-pack?rq=1" class="question-hyperlink">Is it possible to set/edit a file extended properties with Windows API Code Pack?</a></div>
+                    </div>
+                </div>
+
+<div id="hot-network-questions" class="module tex2jax_ignore">
+    <h4>
+        <a href="https://stackexchange.com/questions?tab=hot" class="js-gps-track s-link s-link__inherit" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li>
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="https://security.stackexchange.com/questions/196591/if-i-know-the-cpu-architecture-of-a-target-can-i-send-instructions-embedded-in" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    If I know the CPU architecture of a target, can I send instructions embedded in an image?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-physics" title="Physics Stack Exchange"></div><a href="https://physics.stackexchange.com/questions/438047/with-what-velocity-are-we-moving-along-the-time-dimension" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    With what velocity are we moving along the time dimension?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="https://unix.stackexchange.com/questions/479086/newly-created-user-on-ubuntu-server-has-the-wrong-shell-prompt" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Newly created user on Ubuntu Server has the wrong shell prompt
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="https://english.stackexchange.com/questions/470945/etymology-of-proper-nouns" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:97 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Etymology of proper nouns
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-politics" title="Politics Stack Exchange"></div><a href="https://politics.stackexchange.com/questions/34960/purpose-of-the-european-arrest-warrant" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Purpose of the European Arrest Warrant
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="https://travel.stackexchange.com/questions/124781/would-airlines-increase-prices-for-a-customer-who-must-travel-at-a-certain-time" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Would airlines increase prices for a customer who must travel at a certain time, e.g. to attend a funeral?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/174964/a-sorting-algorithm" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    A "Sorting" algorithm
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="https://electronics.stackexchange.com/questions/404344/help-identify-this-breaker" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Help identify this breaker
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="https://unix.stackexchange.com/questions/479055/shell-script-use-sudo-inside-it-vs-run-it-with-sudo" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    shell script: use sudo inside it vs run it with sudo?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/119177/is-it-common-to-have-exam-questions-peer-reviewed" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is it common to have exam questions 'peer reviewed'?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/121712/what-other-problems-does-hot-desking-solve" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What other problems does hot desking solve?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="https://travel.stackexchange.com/questions/124929/dual-citizenship-only-one-passport-problem" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Dual Citizenship - only one passport problem
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="https://puzzling.stackexchange.com/questions/74604/what-is-my-word" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What is my word
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/128990/how-much-hydrogen-and-oxygen-can-i-add-to-an-atmosphere-before-it-explodes" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How much hydrogen and oxygen can I add to an atmosphere before it explodes?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-movies" title="Movies &amp; TV Stack Exchange"></div><a href="https://movies.stackexchange.com/questions/93482/did-hiro-rebuild-baymax-all-by-himself" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:367 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Did Hiro rebuild Baymax all by himself?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="https://puzzling.stackexchange.com/questions/74599/robbed-on-halloween" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Robbed on Halloween!
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="https://rpg.stackexchange.com/questions/134608/can-my-character-collect-royalties-from-being-an-author" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can my character collect royalties from being an author?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/121851/accused-of-racism-for-refusing-to-name-room-after-foreign-name-that-sounds-like" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Accused of racism for refusing to name room after foreign name that sounds like an offensive phrase
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="https://aviation.stackexchange.com/questions/56631/does-the-pressure-at-the-static-ports-drop-as-the-aircrafts-speed-increases" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Does the pressure at the static ports drop as the aircraft's speed increases?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/128863/why-isnt-my-superhuman-always-hungry" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why isn't my superhuman always hungry?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="https://superuser.com/questions/1371527/on-my-windows-machine-i-had-a-folder-with-a-name-of-four-dots-that-acted-like" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    On my Windows machine, I had a folder with a name of four dots - that acted like some kind of rabbit hole - how did that happen?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="https://superuser.com/questions/1371313/i-got-begin-pgp-public-key-block-attached-to-an-email-and-i-dont-know-what-it" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    I got "BEGIN PGP PUBLIC KEY BLOCK" attached to an email and I don't know what it is
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="https://scifi.stackexchange.com/questions/197706/stargate-sg-1-episode-with-religious-conflict" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Stargate SG-1 episode with religious conflict
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-gamedev" title="Game Development Stack Exchange"></div><a href="https://gamedev.stackexchange.com/questions/164992/difference-between-buffer-and-array-in-opengl" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:53 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Difference between "buffer" and "array" in OpenGL?
+                </a>
+
+            </li>
+    </ul>
+
+        
+</div>
+
+<div id="feed-link">
+    <a href="https://stackoverflow.com/feeds/question/5337683" title="feed of this question and its answers">
+        <svg aria-hidden="true" class="svg-icon fc-orange-400 iconRss" width="18" height="18" viewBox="0 0 18 18"><path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z"></path></svg>
+        question feed
+    </a>
+</div>
+        </div>
+    </div>
+<script>StackExchange.ready(function(){$.get('/posts/5337683/ivc/5201');});</script>
+<noscript><div><img src="/posts/5337683/ivc/5201" class="dno" alt="" width="0" height="0"></div></noscript><div style="display:none" id="prettify-lang">lang-cs</div></div>
+
+
+        </div>
+    </div><script src="./c# - How to set extended file properties_ - Stack Overflow_files/clc.min.js.下载"></script><script src="./c# - How to set extended file properties_ - Stack Overflow_files/gpt.js.下载"></script>
+
+    <footer id="footer" class="site-footer js-footer" role="contentinfo">
+        <div class="site-footer--container">
+                <div class="site-footer--logo">
+
+                    
+                    <a href="https://stackoverflow.com/"><svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewBox="0 0 32 37"><g><path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z"></path><path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024"></path></g></svg></a>
+                </div>
+            
+            <nav class="site-footer--nav">
+                    <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                        <h5 class="-title"><a href="https://stackoverflow.com/" class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 15})">Stack Overflow</a></h5>
+                        <ul class="-list js-primary-footer-links">
+                            <li class="-item"><a href="https://stackoverflow.com/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 16})">Questions</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 17})">Jobs</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 11})">Developer Jobs Directory</a></li>
+                                     <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 28})">Salary Calculator</a></li>
+                                                            <li class="-item"><a href="https://stackoverflow.com/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 3 })">Help</a></li>
+                                <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 12 })">Mobile</a></li>
+                        <li class="-item"><a class="-link" role="button">Disable Responsiveness</a></li></ul>
+                    </div>
+                    <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                        <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/" class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 19 })">Products</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://stackoverflow.com/teams" class="js-gps-track -link" data-ga="[&quot;teams traffic&quot;,&quot;footer - site nav&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]" data-gps-track="footer.click({ location: 2, link: 29 })">Teams</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 20 })">Talent</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 21 })">Engagement</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 22 })">Enterprise</a></li>
+                        </ul>
+                    </div>
+                <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                    <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5>
+                    <ul class="-list">
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li>
+                                                <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 7 })" href="https://stackoverflow.com/legal">Legal</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">Privacy Policy</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="site-footer--col site-footer--categories-nav site-footer--col__visible">
+                    <a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="site-footer--back js-footer-back"><svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewBox="0 0 18 18"><path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z"></path></svg></a>
+                    <div>
+                        <h5 class="-title"><a href="https://stackexchange.com/">Stack Exchange<br> Network</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Technology">Technology</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Life / Arts">Life / Arts</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Science">Science</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/5337683/how-to-set-extended-file-properties#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Other">Other</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="site-footer--categories">
+                    <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+        <ul class="-list">
+                <li class="-item"><a href="https://stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                <li class="-item"><a href="https://serverfault.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li>
+                <li class="-item"><a href="https://superuser.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li>
+                <li class="-item"><a href="https://webapps.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li>
+                <li class="-item"><a href="https://askubuntu.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                <li class="-item"><a href="https://webmasters.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li>
+                <li class="-item"><a href="https://gamedev.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://tex.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                <li class="-item"><a href="https://softwareengineering.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li>
+                <li class="-item"><a href="https://unix.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                <li class="-item"><a href="https://apple.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                <li class="-item"><a href="https://wordpress.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li>
+                <li class="-item"><a href="https://gis.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                <li class="-item"><a href="https://electronics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://android.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                <li class="-item"><a href="https://security.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li>
+                <li class="-item"><a href="https://dba.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                <li class="-item"><a href="https://drupal.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li>
+                <li class="-item"><a href="https://sharepoint.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li>
+                <li class="-item"><a href="https://ux.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li>
+                <li class="-item"><a href="https://mathematica.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://salesforce.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                <li class="-item"><a href="https://expressionengine.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li>
+                <li class="-item"><a href="https://pt.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li>
+                <li class="-item"><a href="https://blender.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li>
+                <li class="-item"><a href="https://networkengineering.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li>
+                <li class="-item"><a href="https://crypto.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+                <li class="-item"><a href="https://codereview.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://magento.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li>
+                <li class="-item"><a href="https://softwarerecs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li>
+                <li class="-item"><a href="https://dsp.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+                <li class="-item"><a href="https://emacs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li>
+                <li class="-item"><a href="https://raspberrypi.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+                <li class="-item"><a href="https://ru.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li>
+                <li class="-item"><a href="https://codegolf.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://es.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li>
+                <li class="-item"><a href="https://ethereum.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li>
+                <li class="-item"><a href="https://datascience.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li>
+                <li class="-item"><a href="https://arduino.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li>
+                <li class="-item"><a href="https://bitcoin.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (30)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+        <ul class="-list">
+                <li class="-item"><a href="https://photo.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                <li class="-item"><a href="https://scifi.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                <li class="-item"><a href="https://graphicdesign.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                <li class="-item"><a href="https://movies.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                <li class="-item"><a href="https://music.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+                <li class="-item"><a href="https://worldbuilding.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li>
+                <li class="-item"><a href="https://cooking.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"><ul class="-list">
+                <li class="-item"><a href="https://diy.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li>
+                <li class="-item"><a href="https://money.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                <li class="-item"><a href="https://academia.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li>
+                <li class="-item"><a href="https://law.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (15)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+        <ul class="-list">
+                <li class="-item"><a href="https://english.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                <li class="-item"><a href="https://skeptics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li>
+                <li class="-item"><a href="https://judaism.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                <li class="-item"><a href="https://travel.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li>
+                <li class="-item"><a href="https://christianity.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                <li class="-item"><a href="https://ell.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li>
+                <li class="-item"><a href="https://japanese.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"><ul class="-list">
+                <li class="-item"><a href="https://gaming.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                <li class="-item"><a href="https://bicycles.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                <li class="-item"><a href="https://rpg.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                <li class="-item"><a href="https://anime.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li>
+                <li class="-item"><a href="https://puzzling.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li>
+                <li class="-item"><a href="https://mechanics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (33)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+        <ul class="-list">
+                <li class="-item"><a href="https://mathoverflow.net/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li>
+                <li class="-item"><a href="https://math.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                <li class="-item"><a href="https://stats.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                <li class="-item"><a href="https://cstheory.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                <li class="-item"><a href="https://physics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li>
+                <li class="-item"><a href="https://chemistry.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers, and students in the field of chemistry">Chemistry</a></li>
+                <li class="-item"><a href="https://biology.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Science"><ul class="-list">
+                <li class="-item"><a href="https://cs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+                <li class="-item"><a href="https://philosophy.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (10)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Other">
+        <ul class="-list">
+                <li class="-item"><a href="https://meta.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                <li class="-item"><a href="https://stackapps.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                <li class="-item"><a href="https://api.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li>
+                <li class="-item"><a href="https://data.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li>
+                <li class="-item"><a href="https://area51.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                    </ul>
+    </div>
+                </div>
+            </nav>
+            <div class="site-footer--copyright fs-fine">
+                <ul class="-list">
+                    <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link:4 })" href="https://stackoverflow.blog/?blb=1">Blog</a></li>
+                    <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li>
+                    <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li>
+                    <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li>
+                </ul>
+
+                <p class="mt-auto mb24">
+site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a>
+                            with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>.
+                    <span id="svnrev">rev&nbsp;2018.10.31.32020</span>
+                </p>
+            </div>
+        </div>
+
+            </footer>
+            <script>StackExchange.ready(function () { StackExchange.responsiveness.addSwitcher(); })</script>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled
+            <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno">
+        </div>
+    </noscript>
+
+<script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ]
+                });
+
+
+
+                    StackExchange.ga.setDimension('dimension2', '|c#|');
+
+                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
+
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>
+            
+    
+    
+<div class="adsbox" id="clc-abd" style="position: absolute; pointer-events: none;">&nbsp;</div><script src="./c# - How to set extended file properties_ - Stack Overflow_files/markup.js.下载"></script><iframe id="google_osd_static_frame_7428892883543" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./c# - How to set extended file properties_ - Stack Overflow_files/saved_resource(3).html"></iframe></body></html>
